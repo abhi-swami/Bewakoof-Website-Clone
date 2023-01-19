@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+
 
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faDownload} from "@fortawesome/free-solid-svg-icons"
@@ -7,12 +7,9 @@ import {
   Flex,
   HStack,
   Link,
-  IconButton,
-  useDisclosure,
   useColorModeValue,
-  Spacer,
 } from "@chakra-ui/react";
-import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
+
 
 const Links = ["Offers", "Fanbook", "DownLoad App","TriBe Membership"];
 const Links1 = ["Contact Us","Track order"];
@@ -24,7 +21,7 @@ const NavLink = ({ children }) => (
     rounded={"md"}
     _hover={{
       textDecoration: "none",
-      bg: useColorModeValue("gray.200", "gray.700"),
+      bg: useColorModeValue("lightcoral"),
     }}
     href={"#"}
   >
@@ -33,7 +30,6 @@ const NavLink = ({ children }) => (
 );
 
 export default function Navbar1() {
-  const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
     <>

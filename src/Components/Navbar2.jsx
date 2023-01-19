@@ -7,33 +7,29 @@ import {
   IconButton,
   Button,
   Stack,
-  Collapse,
   Icon,
   Link,
   Popover,
   PopoverTrigger,
   PopoverContent,
   useColorModeValue,
-  useBreakpointValue,
   useDisclosure,
   Image,
-  HStack,
   VStack,
   Grid,
   GridItem,
   Input,
   InputGroup,
   InputLeftElement,
-  Spacer,
 } from "@chakra-ui/react";
 
 import {
   HamburgerIcon,
   CloseIcon,
-  ChevronDownIcon,
   Search2Icon,
   ChevronRightIcon,
 } from "@chakra-ui/icons";
+
 
 import becool from "../images/becool.png";
 
@@ -73,8 +69,9 @@ export default function WithSubnavigation() {
           justify={{ base: "center", md: "left" }}
           ml={20}
           size={"sm"}
-          border="1px solid black"
+          border="0px solid black"
         >
+          <Link href="./">
           <Image
             src={becool}
             alt="asdfas"
@@ -85,6 +82,8 @@ export default function WithSubnavigation() {
               cursor: "pointer",
             }}
           />
+          </Link>
+
           <Flex display={{ base: "left", md: "flex" }} mt="5px">
             <DesktopNav />
           </Flex>
@@ -95,7 +94,7 @@ export default function WithSubnavigation() {
           justify={"center"}
           direction={"row"}
           spacing={3}
-          border={"1px solid black"}
+          border={"0px solid black"}
         >
           <InputGroup w="30%" variant="filled" size={"md"} color={"gray.600"}>
             <InputLeftElement
@@ -113,10 +112,10 @@ export default function WithSubnavigation() {
             display={{ base: "none", md: "inline-flex" }}
             fontSize={"sm"}
             fontWeight={600}
-            color={"gray.600"}
+            color={"gray.600"}  
             href={"#"}
             _hover={{
-              bg: "yellow.300",
+              bg: "lightcoral",
             }}
           >
             Sign Up
@@ -125,7 +124,7 @@ export default function WithSubnavigation() {
           fontSize={"lg"}
             variant="link"
             _hover={{
-              bg: "yellow.300",
+              bg: "lightcoral",
             }}
           >
             <FontAwesomeIcon icon={faHeart} />
@@ -135,7 +134,7 @@ export default function WithSubnavigation() {
             spacing={-5}
             variant="link"
             _hover={{
-              bg: "yellow.300",
+              bg: "lightcoral",
             }}
           >
             <FontAwesomeIcon icon={faShoppingCart} />
@@ -148,7 +147,7 @@ export default function WithSubnavigation() {
 
 const DesktopNav = () => {
   const linkColor = useColorModeValue("gray.600", "gray.200");
-  const linkHoverColor = useColorModeValue("gray.800", "white");
+  const linkHoverColor = useColorModeValue("lightcoral");
   const popoverContentBgColor = useColorModeValue("white", "gray.800");
 
   return (
@@ -206,7 +205,7 @@ const DesktopSubNav = ({ label, subLabel }) => {
           </Text>
           {subLabel.map((el) => (
             <Text fontSize={"sm"} key={el.id} m={3}>
-              <Link rounded={"md"} _hover={{ bg: "yellow.300" }}>
+              <Link rounded={"md"} _hover={{ bg: "lightcoral" }}>
                 {el.key}
               </Link>
             </Text>
