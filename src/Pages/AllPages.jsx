@@ -4,7 +4,8 @@ import Mens from "./Mens"
 import Womens from "./Womens";
 import Accessories from "./Accessories";
 import WinterWears from "./WinterWears";
-
+import Login from "./Login";
+import SignUp from "./SignUp"
 
 
 export default function AllPages(){
@@ -15,6 +16,8 @@ export default function AllPages(){
             <Route path="/womens" element={<Womens/>}/>
             <Route path="/accessories" element={<Accessories/>}/>
             <Route path="/winterwears" element={<WinterWears/>}/>
+            <Route path="/login" element={<Login/>}/> 
+            <Route path="/signup" element={<SignUp/>}/> 
         </Routes>
     )
 }

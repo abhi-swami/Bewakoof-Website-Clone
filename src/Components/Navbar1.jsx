@@ -1,4 +1,4 @@
-
+import Navbar2 from "./Navbar2"
 
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faDownload} from "@fortawesome/free-solid-svg-icons"
@@ -32,8 +32,8 @@ const NavLink = ({ children }) => (
 export default function Navbar1() {
 
   return (
-    <>
-      <Box bg={useColorModeValue("gray.100", "gray.900")} px={4}>
+    <Box w={'100%'}  b={"100px"} pos={"fixed"}  zIndex={3}  mb={100} border={"0px solid black"}>
+      <Box  bg={useColorModeValue("gray.100", "gray.900")} pb={0} >
         <Flex alignItems={"center"} justifyContent={"space-around"}>
 
           <HStack spacing={8} alignItems={"center"}>
@@ -65,7 +65,8 @@ export default function Navbar1() {
             </HStack>
           </HStack>
         </Flex>
+      <Navbar2/>
       </Box>
-    </>
+    </Box>
   );
 }

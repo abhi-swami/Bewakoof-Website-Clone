@@ -30,14 +30,13 @@ import {
   ChevronRightIcon,
 } from "@chakra-ui/icons";
 
-
 import becool from "../images/becool.png";
 
 export default function WithSubnavigation() {
   const { isOpen, onToggle } = useDisclosure();
 
   return (
-    <Box>
+    <Box w={"100%"}>
       <Flex
         bg={useColorModeValue("white", "gray.800")}
         color={useColorModeValue("gray.600", "white")}
@@ -72,16 +71,16 @@ export default function WithSubnavigation() {
           border="0px solid black"
         >
           <Link href="./">
-          <Image
-            src={becool}
-            alt="asdfas"
-            w="130px"
-            h={"25px"}
-            mr={-5}
-            _hover={{
-              cursor: "pointer",
-            }}
-          />
+            <Image
+              src={becool}
+              alt="asdfas"
+              w="130px"
+              h={"25px"}
+              mr={-5}
+              _hover={{
+                cursor: "pointer",
+              }}
+            />
           </Link>
 
           <Flex display={{ base: "left", md: "flex" }} mt="5px">
@@ -108,20 +107,27 @@ export default function WithSubnavigation() {
               fontWeight={400}
             />
           </InputGroup>
-          <Button
-            display={{ base: "none", md: "inline-flex" }}
-            fontSize={"sm"}
-            fontWeight={600}
-            color={"gray.600"}  
-            href={"#"}
+          <Link
+            href={"/login"}
             _hover={{
-              bg: "lightcoral",
+              textDecor: "none",
             }}
           >
-            Sign Up
-          </Button>
+            <Button
+              display={{ base: "none", md: "inline-flex" }}
+              fontSize={"sm"}
+              fontWeight={600}
+              color={"gray.600"}
+              _hover={{
+                bg: "lightcoral",
+                textDecor: "none",
+              }}
+            >
+              Login
+            </Button>
+          </Link>
           <Button
-          fontSize={"lg"}
+            fontSize={"lg"}
             variant="link"
             _hover={{
               bg: "lightcoral",
@@ -157,7 +163,6 @@ const DesktopNav = () => {
           <Popover trigger={"hover"} placement={"bottom-start"}>
             <PopoverTrigger>
               <Link
-             
                 m={4}
                 href={navItem.href ?? "#"}
                 fontSize={"sm"}
