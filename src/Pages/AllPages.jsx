@@ -6,7 +6,8 @@ import Accessories from "./Accessories";
 import WinterWears from "./WinterWears";
 import Login from "./Login";
 import SignUp from "./SignUp"
-
+import ProductPage from "./ProductPage";
+import SearchPage from "./SearchPage"
 
 export default function AllPages(){
     return(
@@ -18,6 +19,8 @@ export default function AllPages(){
             <Route path="/winterwears" element={<WinterWears/>}/>
             <Route path="/login" element={<Login/>}/> 
             <Route path="/signup" element={<SignUp/>}/> 
+            <Route path="/productPage" element={<ProductPage/>}/> 
+            <Route path="/searchPage" element={<SearchPage/>}/> 
         </Routes>
     )
 }

@@ -5,13 +5,19 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { ChakraProvider } from "@chakra-ui/react";
 import { BrowserRouter } from "react-router-dom";
+import LinkContextProvider from "./Context/LinkContext";
+import SearchContextProvider from "./Context/SearchContext";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <ChakraProvider>
-        <App />
-      </ChakraProvider>
+      <SearchContextProvider>
+        <LinkContextProvider>
+          <ChakraProvider>
+            <App />
+          </ChakraProvider>
+        </LinkContextProvider>
+      </SearchContextProvider>
     </BrowserRouter>
   </React.StrictMode>
 );

@@ -6,30 +6,26 @@ import {
   useColorModeValue,
   Text,
   HStack,
+  Grid,
 } from "@chakra-ui/react";
 
-const data = {
-  isNew: true,
-  imageURL:
-    "https://images.bewakoof.com/t640/men-s-black-uchiha-s-nightmare-oversized-fit-t-shirt-564910-1671802425-1.jpg",
-  name: "Men's Black Deathnote Ryuk Graphic Printed Oversized T-shirt",
-  price: 499,
-  actualPrice: 1499,
-  rating: 4.2,
-  numReviews: 34,
-};
 
-function ProductAddToCart() {
+
+
+function CardComponent({actualPrice,discountPrice,image,rating,brand,title,id}) {
+
+  let x=Math.ceil( discountPrice-((discountPrice*8)/100))
   return (
-    <Flex p={50} w="full" alignItems="center" justifyContent="center">
+    <Grid alignItems="center" justifyContent="space-evenly" gap={9}>
       <Box
         bg={useColorModeValue("white", "gray.800")}
-        maxW="sm"
+        minW="90%"
+        gap={9}
         borderWidth="1px"
         shadow="lg"
         position="relative"
       >
-        {data.isNew && (
+      
           <Text
             position="absolute"
             top={0}
@@ -41,10 +37,10 @@ function ProductAddToCart() {
           >
             OVERSIZE FIT
           </Text>
-        )}
+    
         <HStack
           position="absolute"
-          top={440}
+          top={270}
           left={0}
           p={"1px"}
           pl={2}
@@ -53,12 +49,12 @@ function ProductAddToCart() {
           color={"black"}
           fontSize={"10px"}
         >
-          <Text fontSize={"12px"}>{data.rating}</Text>
+          <Text fontSize={"12px"}>{rating}</Text>
           <Text fontSize={"10px"} color={"lightcoral"}>
             <i class="fa-solid fa-star"></i>
           </Text>
         </HStack>
-        <Image src={data.imageURL} alt={`Picture of ${data.name}`} />
+        <Image src={image} alt={`Picture of ${title}`} />
 
         <Box p={2}>
           <Flex justifyContent={"space-between"}>
@@ -68,7 +64,7 @@ function ProductAddToCart() {
               fontWeight={600}
               color={"gray.600"}
             >
-              BeCool
+              {brand}
             </Text>
             <Text color={"gray.400"} _hover={{color:"lightcoral"}} mr={3}>
             <i class="fa-solid fa-heart"></i>
@@ -84,7 +80,7 @@ function ProductAddToCart() {
               lineHeight="tight"
               isTruncated
             >
-              {data.name}
+              {title}
             </Box>
           </Flex>
 
@@ -95,20 +91,22 @@ function ProductAddToCart() {
             fontSize="16px"
             fontWeight={"bold"}
           >
-            <Text>₹ {data.price}</Text>
+            <Text>₹ {discountPrice}</Text>
             <Text textDecor={"line-through"} pt={1} fontSize={"11px"}>
-              ₹{data.actualPrice}
+            ₹ {actualPrice}
             </Text>
           </HStack>
           <Box d="flex" alignItems="baseline">
             <Badge rounded={1} px="2" fontSize="0.8em" colorScheme="gray">
-              ₹ 409 for TriBe Members
+
+         
+              ₹ {x} for TriBe Members
             </Badge>
           </Box>
         </Box>
       </Box>
-    </Flex>
+    </Grid>
   );
 }
 
-export default ProductAddToCart;
+export default CardComponent;

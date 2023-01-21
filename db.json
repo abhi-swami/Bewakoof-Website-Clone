@@ -1,0 +1,1609 @@
+{
+  "t-shirt": [
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-black-uchiha-s-nightmare-oversized-full-sleeve-t-shirt-564894-1671802302-1.jpg",
+      "rating": 4.4,
+      "brand":"FunWorld",
+      "title": "Men's Black Uchiha's Nightmare Graphic Printed Oversized T-shirt",
+      "discountPrice": 749,
+      "actualPrice": 1499,
+      "color": "black",
+      "id": 1
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-black-uchiha-s-nightmare-oversized-fit-t-shirt-564910-1671802425-1.jpg",
+      "rating": 4.6,
+      "brand":"FunWorld",
+      "title": "Men's Black Uchiha's Nightmare Graphic Printed Oversized T-shirt",
+      "discountPrice": 599,
+      "actualPrice": 1499,
+      "color": "black",
+      "id": 2
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-purpleriot-xxxtentican-oversized-t-shirt-568932-1673613239-1.jpg",
+      "rating": 4.7,
+      "brand":"FunWorld",
+      "title": "Men's Purple Riot XXX Tentacion Graphic Printed Oversized T-shirt",
+      "discountPrice": 499,
+      "actualPrice": 1499,
+      "color": "blue",
+      "id": 3
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-green-uchiha-s-nightmare-oversized-fit-t-shirt-564932-1671802004-1.jpg",
+      "rating": 4.5,
+      "brand":"FunWorld",
+      "title": "Men's Green Uchiha's Nightmare Graphic Printed Oversized T-shirt",
+      "discountPrice": 549,
+      "actualPrice": 1499,
+      "color": "black",
+      "id": 4
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-black-deathnote-ryuk-oversized-t-shirt-568923-1673597452-1.jpg",
+      "rating": 4.5,
+      "title": "Men's Black Deathnote Ryuk Graphic Printed Oversized T-shirt",
+      "discountPrice": 499,
+      "actualPrice": 1499,
+      "color": "black",
+      "id": 5
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/sacrifice-half-sleeve-t-shirt-black-346238-1655749787-1.jpg",
+      "rating": 4.6,
+      "brand":"FunWorld",
+      "title": "Sacrifice Half Sleeve T-Shirt Black",
+      "discountPrice": 549,
+      "actualPrice": "1099",
+      "color": "black",
+      "id": 6
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-black-riot-xxx-tentican-oversized-full-sleeve-t-shirt-569063-1673612954-1.jpg",
+      "rating": 4.6,
+      "brand":"FunWorld",
+      "title": "Men's Black Riot XXX Tentacion Graphic Printed Oversized T-shirt",
+      "discountPrice": 699,
+      "actualPrice": 1499,
+      "color": "black",
+      "id": 7
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/gohan-half-sleeve-t-shirt-512884-1655993277-1.jpg",
+      "rating": 4.4,
+      "brand":"FunWorld",
+      "title": "Men's Black Gohan Graphic Printed T-shirt",
+      "discountPrice": 449,
+      "actualPrice": "999",
+      "color": "black",
+      "id": 8
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-black-riot-xxxtentican-oversized-t-shirt-568930-1673612996-1.jpg",
+      "rating": 4.6,
+      "brand":"FunWorld",
+      "title": "Men's Black Riot XXX Tentacion Graphic Printed Oversized T-shirt",
+      "discountPrice": 499,
+      "actualPrice": 1499,
+      "color": "black",
+      "id": 9
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-black-relax-t-shirt-387407-1655748013-1.jpg",
+      "rating": 4.4,
+      "brand":"FunWorld",
+      "title": "Men's Black Relax T-shirt",
+      "discountPrice": 549,
+      "actualPrice": 1099,
+      "color": "black",
+      "id": 10
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-full-sleeve-t-shirts-1094-1672036930-1.jpg",
+      "rating": 4.4,
+      "brand":"FunWorld",
+      "title": "Men's Full Sleeve T-Shirts",
+      "discountPrice": 399,
+      "actualPrice": 1199,
+      "color": "black",
+      "id": 11
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/white-half-sleeve-t-shirt-105-1666332512-1.jpg",
+      "rating": 4.3,
+      "brand":"FunWorld",
+      "title": "White Half Sleeve T-Shirt",
+      "discountPrice": 499,
+      "actualPrice": 999,
+      "color": "white",
+      "id": 12
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-white-t-shirt-1093-1672982318-1.jpg",
+      "rating": 4.4,
+      "brand":"FunWorld",
+      "title": "Men's White T-shirt",
+      "discountPrice": 499,
+      "actualPrice": 1199,
+      "color": "white",
+      "id": 13
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/anonymous-mask-full-sleeve-t-shirt-232417-1655748284-1.jpg",
+      "rating": 4.4,
+      "brand":"FunWorld",
+      "title": "Anonymous Mask Full Sleeve T-Shirt",
+      "discountPrice": 599,
+      "actualPrice": 1299,
+      "color": "grey",
+      "id": 14
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/hod-iconic-half-sleeve-t-shirt-519411-1657896509-1.jpg",
+      "rating": 4.3,
+      "brand":"FunWorld",
+      "title": "Men's Black House Of The Dragon Iconic Graphic Printed T-shirt",
+      "discountPrice": 449,
+      "actualPrice": 999,
+      "color": "black",
+      "id": 15
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/aot-founding-titan-half-sleeve-t-shirt-518256-1657791545-1.jpg",
+      "rating": 4.5,
+      "brand":"FunWorld",
+      "title": "Men's Black AOT Founding Titan Graphic Printed T-shirt",
+      "discountPrice": 499,
+      "actualPrice": 999,
+      "color": "black",
+      "id": 16
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-blue-rider-vroom-panda-t-shirt-387282-1655748074-1.jpg",
+      "rating": 4.5,
+      "brand":"FunWorld",
+      "title": "Men's Blue Rider Vroom Panda T-shirt",
+      "discountPrice": 349,
+      "actualPrice": 1099,
+      "color": "black",
+      "id": 17
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-blackdeathnote-ryuk-oversized-full-sleeve-t-shirt-568917-1673597329-1.jpg",
+      "rating": 4.5,
+      "brand":"FunWorld",
+      "title": "Men's Black Deathnote Ryuk Graphic Printed Oversized T-shirt",
+      "discountPrice": 699,
+      "actualPrice": 1499,
+      "color": "black",
+      "id": 18
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/conquer-strip-half-sleeve-t-shirt-navy-blue-300968-1655748594-1.jpg",
+      "rating": 4.5,
+      "brand":"FunWorld",
+      "title": "Conquer Strip Half Sleeve T-Shirt Navy Blue",
+      "discountPrice": 349,
+      "actualPrice": 1099,
+      "color": "black",
+      "id": 19
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/conquer-strip-half-sleeve-t-shirt-navy-blue-300968-1655748594-1.jpg",
+      "rating": 4.5,
+      "brand":"FunWorld",
+      "title": "Conquer Strip Half Sleeve T-Shirt Navy Blue",
+      "discountPrice": 349,
+      "actualPrice": 1099,
+      "color": "blue",
+      "id": 20
+    }
+  ],
+  "shirt": [
+    {
+      "image": "https://images.bewakoof.com/t640/cream-men-s-half-sleeves-shirt-348535-1655834980-1.jpg",
+      "brand": "BeCool",
+      "rating": 4.4,
+      "title": "Men's Cream Shirt",
+      "discountPrice": 949,
+      "actualPrice": 1699,
+      "color": "white",
+      "id": 21
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-mandarin-collar-full-sleeves-shirt-361291-1656151875-1.jpg",
+      "brand": "BeCool",
+      "rating": 4.4,
+      "title": "Men's Mandarin Collar Full Sleeves Shirt",
+      "discountPrice": 399,
+      "actualPrice": 1649,
+      "color": "blue",
+      "id": 22
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/aop-mandarin-collar-full-sleeve-shirt-364799-1656142394-1.jpg",
+      "brand": "BeCool",
+      "rating": 4.4,
+      "title": "AOP Mandarin Collar Full Sleeve Shirt",
+      "discountPrice": 399,
+      "actualPrice": 1599,
+      "color": "brown",
+      "id": 23
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-pink-floral-printed-slim-fit-shirt-560530-1670936597-1.JPG",
+      "brand": "SHEVRON",
+      "title": "Men's Pink Floral Printed Slim Fit Shirt",
+      "discountPrice": 699,
+      "actualPrice": 1599,
+      "color": "pink",
+      "id": 24
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-linen-color-block-half-sleeves-shirt-362763-1656176753-1.jpg",
+      "brand": "BeCool",
+      "rating": 4.4,
+      "title": "Men's Blue Color Block Shirt",
+      "discountPrice": 531,
+      "actualPrice": 1599,
+      "color": "black",
+      "id": 25
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/campus-sutra-men-s-blue-shirt-570713-1673960335-1.jpg",
+      "brand": "Campus Sutra",
+      "rating": 4.4,
+      "title": "Men's Blue Shirt",
+      "discountPrice": 849,
+      "actualPrice": 1699,
+      "color": "blue",
+      "id": 26
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-grey-cotton-shirt-538468-1661766026-1.jpg",
+      "brand": "Dillinger",
+      "rating": 4.4,
+      "title": "Men's Grey Cotton Shirt",
+      "discountPrice": 899,
+      "actualPrice": 1999,
+      "color": "grey",
+      "id": 27
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-brown-striped-slim-fit-shirt6-567404-1672737808-1.JPG",
+      "brand": "FLY69",
+      "rating": 4.4,
+      "title": "Men's Brown Striped Slim Fit Shirt",
+      "discountPrice": 1199,
+      "actualPrice": 1799,
+      "color": "cream",
+      "id": 28
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-blue-printed-slim-fit-shirt-568057-1673350736-1.jpg",
+      "brand": "Bushirt",
+      "rating": 4.4,
+      "title": "Men's Blue Printed Slim Fit Shirt",
+      "discountPrice": 899,
+      "actualPrice": 2899,
+      "color": "blue",
+      "id": 29
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-blue-slim-fit-shirt-563240-1671686309-1.JPG",
+      "brand": "FLY69",
+      "rating": 4.4,
+      "title": "Men's Blue Slim Fit Shirt",
+      "discountPrice": 999,
+      "actualPrice": 1899,
+      "color": "blue",
+      "id": 30
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-brown-slim-fit-shirt-563620-1671436102-1.JPG",
+      "brand": "FLY69",
+      "rating": 4.4,
+      "title": "Men's Brown Slim Fit Shirt",
+      "discountPrice": 999,
+      "actualPrice": 1699,
+      "color": "brown",
+      "id": 31
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-grey-striped-slim-fit-shirt-567468-1672748690-1.jpg",
+      "brand": "ACT SMART",
+      "rating": 4.4,
+      "title": "Men's Grey Striped Slim Fit Shirt",
+      "discountPrice": 799,
+      "actualPrice": 1999,
+      "color": "black",
+      "id": 32
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-green-slim-fit-shirt12-567412-1672738463-1.JPG",
+      "brand": "FLY69",
+      "rating": 4.4,
+      "title": "Men's Green Slim Fit Shirt",
+      "discountPrice": 1199,
+      "actualPrice": 1699,
+      "color": "brown",
+      "id": 33
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-grey-abstract-printed-slim-fit-shirt-560573-1670849586-1.JPG",
+      "brand": "ACT SMART",
+      "rating": 4.4,
+      "title": "Men's Grey Abstract Printed Slim Fit Shirt",
+      "discountPrice": 799,
+      "actualPrice": 1599,
+      "color": "grey",
+      "id": 34
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-multicolor-printed-slim-fit-shirt-563249-1671686351-1.JPG",
+      "brand": "FLY69",
+      "rating": 4.4,
+      "title": "Men's Multicolor Printed Slim Fit Shirt",
+      "discountPrice": 999,
+      "actualPrice": 1699,
+      "color": "black",
+      "id": 35
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-grey-printed-slim-fit-shirt-563202-1671685412-1.JPG",
+      "brand": "FLY69",
+      "rating": 4.4,
+      "title": "Men's Grey Printed Slim Fit Shirt",
+      "discountPrice": 999,
+      "actualPrice": 1399,
+      "color": "white",
+      "id": 36
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-black-slim-fit-shirt-560475-1670824281-1.jpg",
+      "brand": "Bushirt",
+      "rating": 4.4,
+      "title": "Men's Black Slim Fit Shirt",
+      "discountPrice": 1099,
+      "actualPrice": 2999,
+      "color": "grey",
+      "id": 37
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-blue-wing-flap-relaxed-fit-shirt-567649-1672985591-1.jpg",
+      "brand": "Snitch",
+      "rating": 4.4,
+      "title": "Men's Blue Wing Flap Relaxed Fit Shirt",
+      "discountPrice": 1399,
+      "actualPrice": 3198,
+      "color": "black",
+      "id": 38
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-red-checked-shirt-551896-1667370645-1.jpg",
+      "brand": "Campus Sutra",
+      "rating": 4.4,
+      "title": "Men's Red Checked Shirt",
+      "discountPrice": 839,
+      "actualPrice": 1399,
+      "color": "red",
+      "id": 39
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-yellow-slim-fit-shirt-560600-1670849146-1.JPG",
+      "brand": "ACT SMART",
+      "rating": 4.4,
+      "title": "Men's Yellow Slim Fit Shirt",
+      "discountPrice": 799,
+      "actualPrice": 1599,
+      "color": "white",
+      "id": 40
+    }
+  ],
+  "jeans": [
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-black-slim-fit-jeans-567501-1672832071-1.JPG",
+      "brand": "Jeans Cafe",
+      "rating": 4.4,
+      "title": "Men's Black Slim Fit Jeans",
+      "discountPrice": 1399,
+      "actualPrice": 2899,
+      "color": "black",
+      "id": 41
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-blue-washed-jeans-567510-1672835666-1.jpg",
+      "brand": "Instafab Plus",
+      "rating": 4.4,
+      "title": "Men's Blue Washed Plus Size Jeans",
+      "discountPrice": 1124,
+      "actualPrice": 2499,
+      "color": "blue",
+      "id": 42
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-white-slim-fit-jeans-567495-1672832420-1.jpg",
+      "brand": "Jeans Cafe",
+      "rating": 4.4,
+      "title": "Men's White Slim Fit Jeans",
+      "discountPrice": 1399,
+      "actualPrice": 2899,
+      "color": "white",
+      "id": 43
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-blue-washed-slim-fit-jeans-558159-1669975007-1.jpg",
+      "brand": "Cinocci",
+      "rating": 4.4,
+      "title": "Men's Blue Washed Slim Fit Jeans",
+      "discountPrice": 1300,
+      "actualPrice": 2599,
+      "color": "black",
+      "id": 44
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-blue-distressed-slim-fit-jeans-564881-1671777409-1.JPG",
+      "brand": "Cinocci",
+      "rating": 4.4,
+      "title": "Men's Blue Distressed Slim Fit Jeans",
+      "discountPrice": 1429,
+      "actualPrice": 2599,
+      "color": "black",
+      "id": 45
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-cream-slim-fit-jeans-564815-1671708428-1.JPG",
+      "brand": "Jeans Cafe",
+      "rating": 4.4,
+      "title": "Men's Cream Slim Fit Jeans",
+      "discountPrice": 1199,
+      "actualPrice": 2899,
+      "color": "brown",
+      "id": 46
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-brown-slim-fit-jeans-564818-1671708302-1.JPG",
+      "brand": "Jeans Cafe",
+      "rating": 4.4,
+      "title": "Men's Brown Slim Fit Jeans",
+      "discountPrice": 1199,
+      "actualPrice": 2899,
+      "color": "brown",
+      "id": 47
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-blue-washed-slim-fit-jeans-564887-1671777462-1.JPG",
+      "brand": "Cinocci",
+      "rating": 4.4,
+      "title": "Men's Blue Washed Slim Fit Jeans",
+      "discountPrice": 1429,
+      "actualPrice": 2599,
+      "color": "black",
+      "id": 48
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-grey-slim-fit-jeans-564814-1671708344-1.JPG",
+      "brand": "Jeans Cafe",
+      "rating": 4.4,
+      "title": "Men's Grey Slim Fit Jeans",
+      "discountPrice": 1199,
+      "actualPrice": 2899,
+      "color": "blue",
+      "id": 49
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-blue-ripped-jeans-555188-1668673672-1.jpg",
+      "brand": "BLANCK",
+      "rating": 4.4,
+      "title": "Men's Blue Ripped Jeans",
+      "discountPrice": 1499,
+      "actualPrice": 1999,
+      "color": "blue",
+      "id": 50
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-grey-slim-fit-jeans-555182-1668674320-1.jpg",
+      "brand": "BLANCK",
+      "rating": 4.4,
+      "title": "Men's Grey Slim Fit Jeans",
+      "discountPrice": 1349,
+      "actualPrice": 1799,
+      "color": "black",
+      "id": 51
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-black-washed-skinny-fit-jeans-557049-1669707301-1.jpg",
+      "brand": "Old Grey",
+      "rating": 4.4,
+      "title": "Men's Black Washed Skinny Fit Jeans",
+      "discountPrice": 999,
+      "actualPrice": 2499,
+      "color": "black",
+      "id": 52
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-white-skinny-fit-jeans-552820-1667540322-1.jpg",
+      "brand": "Snitch",
+      "rating": 4.4,
+      "title": "Men's White Skinny Fit Jeans",
+      "discountPrice": 1699,
+      "actualPrice": 3199,
+      "color": "white",
+      "id": 53
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-blue-washed-jeans-567520-1672835629-1.jpg",
+      "brand": "Instafab Plus",
+      "rating": 4.4,
+      "title": "Men's Blue Washed Plus Size Jeans",
+      "discountPrice": 1124,
+      "actualPrice": 2499,
+      "color": "blue",
+      "id": 54
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-blue-washed-jeans-567522-1672836025-1.JPG",
+      "brand": "Instafab Plus",
+      "rating": 4.4,
+      "title": "Men's Blue Washed Plus Size Jeans",
+      "discountPrice": 1124,
+      "actualPrice": 2499,
+      "color": "black",
+      "id": 9999
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-blue-washed-jeans-567523-1672835746-1.JPG",
+      "brand": "Instafab Plus",
+      "rating": 4.4,
+      "title": "Men's Blue Washed Plus Size Jeans",
+      "discountPrice": 1124,
+      "actualPrice": 2499,
+      "color": "black",
+      "id": 55
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-blue-washed-jeans-567526-1672835822-1.JPG",
+      "brand": "Instafab Plus",
+      "rating": 4.4,
+      "title": "Men's Blue Washed Plus Size Jeans",
+      "discountPrice": 1124,
+      "actualPrice": 2499,
+      "id": 56
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-blue-distressed-slim-fit-jeans-520706-1658751963-1.JPG",
+      "brand": "Old Grey",
+      "rating": 4.4,
+      "title": "Men's Blue Distressed Slim Fit Jeans",
+      "discountPrice": 898,
+      "actualPrice": 2099,
+      "color": "black",
+      "id": 57
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-black-slim-fit-jeans-558049-1669896496-1.jpg",
+      "brand": "Jeans Cafe",
+      "rating": 4.4,
+      "title": "Men's Black Slim Fit Jeans",
+      "discountPrice": 1099,
+      "actualPrice": 2499,
+      "color": "black",
+      "id": 58
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-grey-washed-jeans-549311-1666163051-1.jpg",
+      "brand": "TISTABENE",
+      "rating": 4.4,
+      "title": "Men's Grey Washed Jeans",
+      "discountPrice": 1385,
+      "actualPrice": 1899,
+      "color": "black",
+      "id": 59
+    }
+  ],
+  "sweatshirt": [
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-greenriot-xxxtentican-oversized-sweatshirt-568914-1673613116-1.jpg",
+      "rating": 4.6,
+      "brand": "BeCool",
+      "title": "Men's Green Riot XXX Tentacion Graphic Printed Oversized Sweatshirt",
+      "discountPrice": 849,
+      "actualPrice": 2999,
+      "color": "blue",
+      "id": 60
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-crewneck-solid-black-sweatshirt-363692-1669641880-1.jpg",
+      "rating": 4.4,
+      "brand": "BeCool",
+      "title": "Men's Black Sweatshirt",
+      "discountPrice": 699,
+      "actualPrice": 1799,
+      "color": "black",
+      "id": 61
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-blackdeathnote-ryuk-oversized-sweatshirt-568916-1673597164-1.jpg",
+      "rating": 4.6,
+      "brand": "BeCool",
+      "title": "Men's Black Deathnote Ryuk Graphic Printed Oversized Sweatshirt",
+      "discountPrice": 999,
+      "actualPrice": 2999,
+      "color": "black",
+      "id": 62
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-wax-yellow-oversized-sweatshirt-499057-1672830534-1.jpg",
+      "rating": 4.7,
+      "brand": "BeCool",
+      "title": "Men's Wax Yellow Oversized Sweatshirt",
+      "discountPrice": 939,
+      "actualPrice": 2399,
+      "color": "cream",
+      "id": 63
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-black-riot-xxx-tentacion-graphic-printed-zipper-sweatshirt-568915-1673947038-1.jpg",
+      "rating": 4.5,
+      "brand": "BeCool",
+      "title": "Men's Black Riot XXX Tentacion Graphic Printed Zipper Sweatshirt",
+      "discountPrice": 1049,
+      "actualPrice": 2499,
+      "color": "black",
+      "id": 64
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/upbeat-blue-crew-neck-sweatshirt-464311-1656159396-1.jpg",
+      "rating": 4.8,
+      "brand": "BeCool",
+      "title": "Men's Blue Sweatshirt",
+      "discountPrice": 485,
+      "actualPrice": 1399,
+      "color": "blue",
+      "id": 65
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-navy-workin-typography-sweatshirt-457748-1655920747-1.jpg",
+      "rating": 4.7,
+      "brand": "BeCool",
+      "title": "Men's Navy Workin Typography Sweatshirt",
+      "discountPrice": 484,
+      "actualPrice": 1649,
+      "color": "blue",
+      "id": 66
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-black-zipper-sweatshirt-363696-1673356331-1.jpg",
+      "rating": 4.5,
+      "brand": "BeCool",
+      "title": "Men's Black Zipper Sweatshirt",
+      "discountPrice": 799,
+      "actualPrice": 2399,
+      "color": "black",
+      "id": 67
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-white-berserk-printed-oversized-anime-sweatshirt-560453-1670584492-1.jpg",
+      "rating": 5,
+      "brand": "FANS ARMY",
+      "title": "Men's White Berserk Printed Oversized Anime Sweatshirt",
+      "discountPrice": 1299,
+      "actualPrice": 1899,
+      "color": "white",
+      "id": 68
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-crewneck-solid-navy-sweatshirt-363810-1669641759-1.jpg",
+      "rating": 4.6,
+      "brand": "BeCool",
+      "title": "Men's Navy Sweatshirt",
+      "discountPrice": 726,
+      "actualPrice": 1799,
+      "color": "black",
+      "id": 69
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/red-plum-crewneck-fleece-sweatshirt-363691-1656188873-1.jpg",
+      "rating": 4.3,
+      "brand": "BeCool",
+      "title": "Men's Plum Red Sweatshirt",
+      "discountPrice": 845,
+      "actualPrice": 1899,
+      "color": "red",
+      "id": 70
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-black-all-over-printed-oversized-sweatshirt-504110-1672826995-1.jpg",
+      "rating": 4.4,
+      "brand": "BeCool",
+      "title": "Men's Black All Over Printed Oversized Sweatshirt",
+      "discountPrice": 1299,
+      "actualPrice": 2699,
+      "color": "black",
+      "id": 71
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-black-avenger-typogarphy-sweatshirt-390354-1672411181-1.jpg",
+      "rating": 4.6,
+      "brand": "BeCool",
+      "title": "Men's Black Avenger Typogarphy Sweatshirt",
+      "discountPrice": 573,
+      "actualPrice": 2099,
+      "color": "black",
+      "id": 72
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-pink-it-s-a-deal-graphic-printed-oversized-sweatshirt-552844-1672836480-1.jpg",
+      "rating": 4.5,
+      "brand": "BeCool",
+      "title": "Men's Pink It's a Deal Graphic Printed Oversized Sweatshirt",
+      "discountPrice": 1299,
+      "actualPrice": 2499,
+      "color": "pink",
+      "id": 73
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-prototype-1-0-printed-sweatshirt-557003-1670917676-1.jpg",
+      "rating": 4.7,
+      "brand": "BeCool",
+      "title": "Men's Grey Prototype Graphic Printed Sweatshirt",
+      "discountPrice": 1049,
+      "actualPrice": 2299,
+      "color": "grey",
+      "id": 74
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/goosebumps-oversized-sweatshirt-564613-1672061459-1.jpg",
+      "rating": 4.6,
+      "brand": "BeCool",
+      "title": "Men's Brown Goosebumps Graphic Printed Oversized Sweatshirt",
+      "discountPrice": 1299,
+      "actualPrice": 2399,
+      "color": "grey",
+      "id": 75
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-prototype-1-0-printed-sweatshirt-556952-1670918205-1.jpg",
+      "rating": 4.5,
+      "brand": "BeCool",
+      "title": "Men's Plum Red Prototype Graphic Printed Sweatshirt",
+      "discountPrice": 1049,
+      "actualPrice": 2499,
+      "color": "red",
+      "id": 76
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-yellow-enjoy-graphic-printed-oversized-sweatshirt-558225-1672834212-1.jpg",
+      "rating": null,
+      "brand": "BeCool",
+      "title": "Men's Yellow Enjoy Graphic Printed Oversized Sweatshirt",
+      "discountPrice": 1399,
+      "actualPrice": 2999,
+      "color": "yellow",
+      "id": 77
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-s-pink-wow-typography-oversized-sweatshirt-549270-1672834260-1.jpg",
+      "rating": 4.5,
+      "brand": "BeCool",
+      "title": "Men's Pink WOW Typography Oversized Sweatshirt",
+      "discountPrice": 736,
+      "actualPrice": 2499,
+      "color": "cream",
+      "id": 78
+    },
+    {
+      "image": "https://images.bewakoof.com/t640/men-nonchalance-printed-sweatshirt-559170-1672205143-1.jpg",
+      "rating": 4.6,
+      "brand": "BeCool",
+      "title": "Men's Black Nonchalance Typography Oversized Sweatshirt",
+      "discountPrice": 1221,
+      "actualPrice": 2099,
+      "color": "cream",
+      "id": 79
+    }
+  ],
+  "allProduct":[
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-black-uchiha-s-nightmare-oversized-full-sleeve-t-shirt-564894-1671802302-1.jpg",
+        "rating": 4.4,
+        "brand":"FunWorld",
+        "title": "Men's Black Uchiha's Nightmare Graphic Printed Oversized T-shirt",
+        "discountPrice": 749,
+        "actualPrice": 1499,
+        "color": "black",
+        "id": 1
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-black-uchiha-s-nightmare-oversized-fit-t-shirt-564910-1671802425-1.jpg",
+        "rating": 4.6,
+        "brand":"FunWorld",
+        "title": "Men's Black Uchiha's Nightmare Graphic Printed Oversized T-shirt",
+        "discountPrice": 599,
+        "actualPrice": 1499,
+        "color": "black",
+        "id": 2
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-purpleriot-xxxtentican-oversized-t-shirt-568932-1673613239-1.jpg",
+        "rating": 4.7,
+        "brand":"FunWorld",
+        "title": "Men's Purple Riot XXX Tentacion Graphic Printed Oversized T-shirt",
+        "discountPrice": 499,
+        "actualPrice": 1499,
+        "color": "blue",
+        "id": 3
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-green-uchiha-s-nightmare-oversized-fit-t-shirt-564932-1671802004-1.jpg",
+        "rating": 4.5,
+        "brand":"FunWorld",
+        "title": "Men's Green Uchiha's Nightmare Graphic Printed Oversized T-shirt",
+        "discountPrice": 549,
+        "actualPrice": 1499,
+        "color": "black",
+        "id": 4
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-black-deathnote-ryuk-oversized-t-shirt-568923-1673597452-1.jpg",
+        "rating": 4.5,
+        "title": "Men's Black Deathnote Ryuk Graphic Printed Oversized T-shirt",
+        "discountPrice": 499,
+        "actualPrice": 1499,
+        "color": "black",
+        "id": 5
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/sacrifice-half-sleeve-t-shirt-black-346238-1655749787-1.jpg",
+        "rating": 4.6,
+        "brand":"FunWorld",
+        "title": "Sacrifice Half Sleeve T-Shirt Black",
+        "discountPrice": 549,
+        "actualPrice": "1099",
+        "color": "black",
+        "id": 6
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-black-riot-xxx-tentican-oversized-full-sleeve-t-shirt-569063-1673612954-1.jpg",
+        "rating": 4.6,
+        "brand":"FunWorld",
+        "title": "Men's Black Riot XXX Tentacion Graphic Printed Oversized T-shirt",
+        "discountPrice": 699,
+        "actualPrice": 1499,
+        "color": "black",
+        "id": 7
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/gohan-half-sleeve-t-shirt-512884-1655993277-1.jpg",
+        "rating": 4.4,
+        "brand":"FunWorld",
+        "title": "Men's Black Gohan Graphic Printed T-shirt",
+        "discountPrice": 449,
+        "actualPrice": "999",
+        "color": "black",
+        "id": 8
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-black-riot-xxxtentican-oversized-t-shirt-568930-1673612996-1.jpg",
+        "rating": 4.6,
+        "brand":"FunWorld",
+        "title": "Men's Black Riot XXX Tentacion Graphic Printed Oversized T-shirt",
+        "discountPrice": 499,
+        "actualPrice": 1499,
+        "color": "black",
+        "id": 9
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-black-relax-t-shirt-387407-1655748013-1.jpg",
+        "rating": 4.4,
+        "brand":"FunWorld",
+        "title": "Men's Black Relax T-shirt",
+        "discountPrice": 549,
+        "actualPrice": 1099,
+        "color": "black",
+        "id": 10
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-full-sleeve-t-shirts-1094-1672036930-1.jpg",
+        "rating": 4.4,
+        "brand":"FunWorld",
+        "title": "Men's Full Sleeve T-Shirts",
+        "discountPrice": 399,
+        "actualPrice": 1199,
+        "color": "black",
+        "id": 11
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/white-half-sleeve-t-shirt-105-1666332512-1.jpg",
+        "rating": 4.3,
+        "brand":"FunWorld",
+        "title": "White Half Sleeve T-Shirt",
+        "discountPrice": 499,
+        "actualPrice": 999,
+        "color": "white",
+        "id": 12
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-white-t-shirt-1093-1672982318-1.jpg",
+        "rating": 4.4,
+        "brand":"FunWorld",
+        "title": "Men's White T-shirt",
+        "discountPrice": 499,
+        "actualPrice": 1199,
+        "color": "white",
+        "id": 13
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/anonymous-mask-full-sleeve-t-shirt-232417-1655748284-1.jpg",
+        "rating": 4.4,
+        "brand":"FunWorld",
+        "title": "Anonymous Mask Full Sleeve T-Shirt",
+        "discountPrice": 599,
+        "actualPrice": 1299,
+        "color": "grey",
+        "id": 14
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/hod-iconic-half-sleeve-t-shirt-519411-1657896509-1.jpg",
+        "rating": 4.3,
+        "brand":"FunWorld",
+        "title": "Men's Black House Of The Dragon Iconic Graphic Printed T-shirt",
+        "discountPrice": 449,
+        "actualPrice": 999,
+        "color": "black",
+        "id": 15
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/aot-founding-titan-half-sleeve-t-shirt-518256-1657791545-1.jpg",
+        "rating": 4.5,
+        "brand":"FunWorld",
+        "title": "Men's Black AOT Founding Titan Graphic Printed T-shirt",
+        "discountPrice": 499,
+        "actualPrice": 999,
+        "color": "black",
+        "id": 16
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-blue-rider-vroom-panda-t-shirt-387282-1655748074-1.jpg",
+        "rating": 4.5,
+        "brand":"FunWorld",
+        "title": "Men's Blue Rider Vroom Panda T-shirt",
+        "discountPrice": 349,
+        "actualPrice": 1099,
+        "color": "black",
+        "id": 17
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-blackdeathnote-ryuk-oversized-full-sleeve-t-shirt-568917-1673597329-1.jpg",
+        "rating": 4.5,
+        "brand":"FunWorld",
+        "title": "Men's Black Deathnote Ryuk Graphic Printed Oversized T-shirt",
+        "discountPrice": 699,
+        "actualPrice": 1499,
+        "color": "black",
+        "id": 18
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/conquer-strip-half-sleeve-t-shirt-navy-blue-300968-1655748594-1.jpg",
+        "rating": 4.5,
+        "brand":"FunWorld",
+        "title": "Conquer Strip Half Sleeve T-Shirt Navy Blue",
+        "discountPrice": 349,
+        "actualPrice": 1099,
+        "color": "black",
+        "id": 19
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/conquer-strip-half-sleeve-t-shirt-navy-blue-300968-1655748594-1.jpg",
+        "rating": 4.5,
+        "brand":"FunWorld",
+        "title": "Conquer Strip Half Sleeve T-Shirt Navy Blue",
+        "discountPrice": 349,
+        "actualPrice": 1099,
+        "color": "blue",
+        "id": 20
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/cream-men-s-half-sleeves-shirt-348535-1655834980-1.jpg",
+        "brand": "BeCool",
+        "rating": 4.4,
+        "title": "Men's Cream Shirt",
+        "discountPrice": 949,
+        "actualPrice": 1699,
+        "color": "white",
+        "id": 21
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-mandarin-collar-full-sleeves-shirt-361291-1656151875-1.jpg",
+        "brand": "BeCool",
+        "rating": 4.4,
+        "title": "Men's Mandarin Collar Full Sleeves Shirt",
+        "discountPrice": 399,
+        "actualPrice": 1649,
+        "color": "blue",
+        "id": 22
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/aop-mandarin-collar-full-sleeve-shirt-364799-1656142394-1.jpg",
+        "brand": "BeCool",
+        "rating": 4.4,
+        "title": "AOP Mandarin Collar Full Sleeve Shirt",
+        "discountPrice": 399,
+        "actualPrice": 1599,
+        "color": "brown",
+        "id": 23
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-pink-floral-printed-slim-fit-shirt-560530-1670936597-1.JPG",
+        "brand": "SHEVRON",
+        "title": "Men's Pink Floral Printed Slim Fit Shirt",
+        "discountPrice": 699,
+        "actualPrice": 1599,
+        "color": "pink",
+        "id": 24
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-linen-color-block-half-sleeves-shirt-362763-1656176753-1.jpg",
+        "brand": "BeCool",
+        "rating": 4.4,
+        "title": "Men's Blue Color Block Shirt",
+        "discountPrice": 531,
+        "actualPrice": 1599,
+        "color": "black",
+        "id": 25
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/campus-sutra-men-s-blue-shirt-570713-1673960335-1.jpg",
+        "brand": "Campus Sutra",
+        "rating": 4.4,
+        "title": "Men's Blue Shirt",
+        "discountPrice": 849,
+        "actualPrice": 1699,
+        "color": "blue",
+        "id": 26
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-grey-cotton-shirt-538468-1661766026-1.jpg",
+        "brand": "Dillinger",
+        "rating": 4.4,
+        "title": "Men's Grey Cotton Shirt",
+        "discountPrice": 899,
+        "actualPrice": 1999,
+        "color": "grey",
+        "id": 27
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-brown-striped-slim-fit-shirt6-567404-1672737808-1.JPG",
+        "brand": "FLY69",
+        "rating": 4.4,
+        "title": "Men's Brown Striped Slim Fit Shirt",
+        "discountPrice": 1199,
+        "actualPrice": 1799,
+        "color": "cream",
+        "id": 28
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-blue-printed-slim-fit-shirt-568057-1673350736-1.jpg",
+        "brand": "Bushirt",
+        "rating": 4.4,
+        "title": "Men's Blue Printed Slim Fit Shirt",
+        "discountPrice": 899,
+        "actualPrice": 2899,
+        "color": "blue",
+        "id": 29
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-blue-slim-fit-shirt-563240-1671686309-1.JPG",
+        "brand": "FLY69",
+        "rating": 4.4,
+        "title": "Men's Blue Slim Fit Shirt",
+        "discountPrice": 999,
+        "actualPrice": 1899,
+        "color": "blue",
+        "id": 30
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-brown-slim-fit-shirt-563620-1671436102-1.JPG",
+        "brand": "FLY69",
+        "rating": 4.4,
+        "title": "Men's Brown Slim Fit Shirt",
+        "discountPrice": 999,
+        "actualPrice": 1699,
+        "color": "brown",
+        "id": 31
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-grey-striped-slim-fit-shirt-567468-1672748690-1.jpg",
+        "brand": "ACT SMART",
+        "rating": 4.4,
+        "title": "Men's Grey Striped Slim Fit Shirt",
+        "discountPrice": 799,
+        "actualPrice": 1999,
+        "color": "black",
+        "id": 32
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-green-slim-fit-shirt12-567412-1672738463-1.JPG",
+        "brand": "FLY69",
+        "rating": 4.4,
+        "title": "Men's Green Slim Fit Shirt",
+        "discountPrice": 1199,
+        "actualPrice": 1699,
+        "color": "brown",
+        "id": 33
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-grey-abstract-printed-slim-fit-shirt-560573-1670849586-1.JPG",
+        "brand": "ACT SMART",
+        "rating": 4.4,
+        "title": "Men's Grey Abstract Printed Slim Fit Shirt",
+        "discountPrice": 799,
+        "actualPrice": 1599,
+        "color": "grey",
+        "id": 34
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-multicolor-printed-slim-fit-shirt-563249-1671686351-1.JPG",
+        "brand": "FLY69",
+        "rating": 4.4,
+        "title": "Men's Multicolor Printed Slim Fit Shirt",
+        "discountPrice": 999,
+        "actualPrice": 1699,
+        "color": "black",
+        "id": 35
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-grey-printed-slim-fit-shirt-563202-1671685412-1.JPG",
+        "brand": "FLY69",
+        "rating": 4.4,
+        "title": "Men's Grey Printed Slim Fit Shirt",
+        "discountPrice": 999,
+        "actualPrice": 1399,
+        "color": "white",
+        "id": 36
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-black-slim-fit-shirt-560475-1670824281-1.jpg",
+        "brand": "Bushirt",
+        "rating": 4.4,
+        "title": "Men's Black Slim Fit Shirt",
+        "discountPrice": 1099,
+        "actualPrice": 2999,
+        "color": "grey",
+        "id": 37
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-blue-wing-flap-relaxed-fit-shirt-567649-1672985591-1.jpg",
+        "brand": "Snitch",
+        "rating": 4.4,
+        "title": "Men's Blue Wing Flap Relaxed Fit Shirt",
+        "discountPrice": 1399,
+        "actualPrice": 3198,
+        "color": "black",
+        "id": 38
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-red-checked-shirt-551896-1667370645-1.jpg",
+        "brand": "Campus Sutra",
+        "rating": 4.4,
+        "title": "Men's Red Checked Shirt",
+        "discountPrice": 839,
+        "actualPrice": 1399,
+        "color": "red",
+        "id": 39
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-yellow-slim-fit-shirt-560600-1670849146-1.JPG",
+        "brand": "ACT SMART",
+        "rating": 4.4,
+        "title": "Men's Yellow Slim Fit Shirt",
+        "discountPrice": 799,
+        "actualPrice": 1599,
+        "color": "white",
+        "id": 40
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-black-slim-fit-jeans-567501-1672832071-1.JPG",
+        "brand": "Jeans Cafe",
+        "rating": 4.4,
+        "title": "Men's Black Slim Fit Jeans",
+        "discountPrice": 1399,
+        "actualPrice": 2899,
+        "color": "black",
+        "id": 41
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-blue-washed-jeans-567510-1672835666-1.jpg",
+        "brand": "Instafab Plus",
+        "rating": 4.4,
+        "title": "Men's Blue Washed Plus Size Jeans",
+        "discountPrice": 1124,
+        "actualPrice": 2499,
+        "color": "blue",
+        "id": 42
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-white-slim-fit-jeans-567495-1672832420-1.jpg",
+        "brand": "Jeans Cafe",
+        "rating": 4.4,
+        "title": "Men's White Slim Fit Jeans",
+        "discountPrice": 1399,
+        "actualPrice": 2899,
+        "color": "white",
+        "id": 43
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-blue-washed-slim-fit-jeans-558159-1669975007-1.jpg",
+        "brand": "Cinocci",
+        "rating": 4.4,
+        "title": "Men's Blue Washed Slim Fit Jeans",
+        "discountPrice": 1300,
+        "actualPrice": 2599,
+        "color": "black",
+        "id": 44
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-blue-distressed-slim-fit-jeans-564881-1671777409-1.JPG",
+        "brand": "Cinocci",
+        "rating": 4.4,
+        "title": "Men's Blue Distressed Slim Fit Jeans",
+        "discountPrice": 1429,
+        "actualPrice": 2599,
+        "color": "black",
+        "id": 45
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-cream-slim-fit-jeans-564815-1671708428-1.JPG",
+        "brand": "Jeans Cafe",
+        "rating": 4.4,
+        "title": "Men's Cream Slim Fit Jeans",
+        "discountPrice": 1199,
+        "actualPrice": 2899,
+        "color": "brown",
+        "id": 46
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-brown-slim-fit-jeans-564818-1671708302-1.JPG",
+        "brand": "Jeans Cafe",
+        "rating": 4.4,
+        "title": "Men's Brown Slim Fit Jeans",
+        "discountPrice": 1199,
+        "actualPrice": 2899,
+        "color": "brown",
+        "id": 47
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-blue-washed-slim-fit-jeans-564887-1671777462-1.JPG",
+        "brand": "Cinocci",
+        "rating": 4.4,
+        "title": "Men's Blue Washed Slim Fit Jeans",
+        "discountPrice": 1429,
+        "actualPrice": 2599,
+        "color": "black",
+        "id": 48
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-grey-slim-fit-jeans-564814-1671708344-1.JPG",
+        "brand": "Jeans Cafe",
+        "rating": 4.4,
+        "title": "Men's Grey Slim Fit Jeans",
+        "discountPrice": 1199,
+        "actualPrice": 2899,
+        "color": "blue",
+        "id": 49
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-blue-ripped-jeans-555188-1668673672-1.jpg",
+        "brand": "BLANCK",
+        "rating": 4.4,
+        "title": "Men's Blue Ripped Jeans",
+        "discountPrice": 1499,
+        "actualPrice": 1999,
+        "color": "blue",
+        "id": 50
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-grey-slim-fit-jeans-555182-1668674320-1.jpg",
+        "brand": "BLANCK",
+        "rating": 4.4,
+        "title": "Men's Grey Slim Fit Jeans",
+        "discountPrice": 1349,
+        "actualPrice": 1799,
+        "color": "black",
+        "id": 51
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-black-washed-skinny-fit-jeans-557049-1669707301-1.jpg",
+        "brand": "Old Grey",
+        "rating": 4.4,
+        "title": "Men's Black Washed Skinny Fit Jeans",
+        "discountPrice": 999,
+        "actualPrice": 2499,
+        "color": "black",
+        "id": 52
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-white-skinny-fit-jeans-552820-1667540322-1.jpg",
+        "brand": "Snitch",
+        "rating": 4.4,
+        "title": "Men's White Skinny Fit Jeans",
+        "discountPrice": 1699,
+        "actualPrice": 3199,
+        "color": "white",
+        "id": 53
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-blue-washed-jeans-567520-1672835629-1.jpg",
+        "brand": "Instafab Plus",
+        "rating": 4.4,
+        "title": "Men's Blue Washed Plus Size Jeans",
+        "discountPrice": 1124,
+        "actualPrice": 2499,
+        "color": "blue",
+        "id": 54
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-blue-washed-jeans-567522-1672836025-1.JPG",
+        "brand": "Instafab Plus",
+        "rating": 4.4,
+        "title": "Men's Blue Washed Plus Size Jeans",
+        "discountPrice": 1124,
+        "actualPrice": 2499,
+        "color": "black",
+        "id": 9999
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-blue-washed-jeans-567523-1672835746-1.JPG",
+        "brand": "Instafab Plus",
+        "rating": 4.4,
+        "title": "Men's Blue Washed Plus Size Jeans",
+        "discountPrice": 1124,
+        "actualPrice": 2499,
+        "color": "black",
+        "id": 55
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-blue-washed-jeans-567526-1672835822-1.JPG",
+        "brand": "Instafab Plus",
+        "rating": 4.4,
+        "title": "Men's Blue Washed Plus Size Jeans",
+        "discountPrice": 1124,
+        "actualPrice": 2499,
+        "id": 56
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-blue-distressed-slim-fit-jeans-520706-1658751963-1.JPG",
+        "brand": "Old Grey",
+        "rating": 4.4,
+        "title": "Men's Blue Distressed Slim Fit Jeans",
+        "discountPrice": 898,
+        "actualPrice": 2099,
+        "color": "black",
+        "id": 57
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-black-slim-fit-jeans-558049-1669896496-1.jpg",
+        "brand": "Jeans Cafe",
+        "rating": 4.4,
+        "title": "Men's Black Slim Fit Jeans",
+        "discountPrice": 1099,
+        "actualPrice": 2499,
+        "color": "black",
+        "id": 58
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-grey-washed-jeans-549311-1666163051-1.jpg",
+        "brand": "TISTABENE",
+        "rating": 4.4,
+        "title": "Men's Grey Washed Jeans",
+        "discountPrice": 1385,
+        "actualPrice": 1899,
+        "color": "black",
+        "id": 59
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-greenriot-xxxtentican-oversized-sweatshirt-568914-1673613116-1.jpg",
+        "rating": 4.6,
+        "brand": "BeCool",
+        "title": "Men's Green Riot XXX Tentacion Graphic Printed Oversized Sweatshirt",
+        "discountPrice": 849,
+        "actualPrice": 2999,
+        "color": "blue",
+        "id": 60
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-crewneck-solid-black-sweatshirt-363692-1669641880-1.jpg",
+        "rating": 4.4,
+        "brand": "BeCool",
+        "title": "Men's Black Sweatshirt",
+        "discountPrice": 699,
+        "actualPrice": 1799,
+        "color": "black",
+        "id": 61
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-blackdeathnote-ryuk-oversized-sweatshirt-568916-1673597164-1.jpg",
+        "rating": 4.6,
+        "brand": "BeCool",
+        "title": "Men's Black Deathnote Ryuk Graphic Printed Oversized Sweatshirt",
+        "discountPrice": 999,
+        "actualPrice": 2999,
+        "color": "black",
+        "id": 62
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-wax-yellow-oversized-sweatshirt-499057-1672830534-1.jpg",
+        "rating": 4.7,
+        "brand": "BeCool",
+        "title": "Men's Wax Yellow Oversized Sweatshirt",
+        "discountPrice": 939,
+        "actualPrice": 2399,
+        "color": "cream",
+        "id": 63
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-black-riot-xxx-tentacion-graphic-printed-zipper-sweatshirt-568915-1673947038-1.jpg",
+        "rating": 4.5,
+        "brand": "BeCool",
+        "title": "Men's Black Riot XXX Tentacion Graphic Printed Zipper Sweatshirt",
+        "discountPrice": 1049,
+        "actualPrice": 2499,
+        "color": "black",
+        "id": 64
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/upbeat-blue-crew-neck-sweatshirt-464311-1656159396-1.jpg",
+        "rating": 4.8,
+        "brand": "BeCool",
+        "title": "Men's Blue Sweatshirt",
+        "discountPrice": 485,
+        "actualPrice": 1399,
+        "color": "blue",
+        "id": 65
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-navy-workin-typography-sweatshirt-457748-1655920747-1.jpg",
+        "rating": 4.7,
+        "brand": "BeCool",
+        "title": "Men's Navy Workin Typography Sweatshirt",
+        "discountPrice": 484,
+        "actualPrice": 1649,
+        "color": "blue",
+        "id": 66
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-black-zipper-sweatshirt-363696-1673356331-1.jpg",
+        "rating": 4.5,
+        "brand": "BeCool",
+        "title": "Men's Black Zipper Sweatshirt",
+        "discountPrice": 799,
+        "actualPrice": 2399,
+        "color": "black",
+        "id": 67
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-white-berserk-printed-oversized-anime-sweatshirt-560453-1670584492-1.jpg",
+        "rating": 5,
+        "brand": "FANS ARMY",
+        "title": "Men's White Berserk Printed Oversized Anime Sweatshirt",
+        "discountPrice": 1299,
+        "actualPrice": 1899,
+        "color": "white",
+        "id": 68
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-crewneck-solid-navy-sweatshirt-363810-1669641759-1.jpg",
+        "rating": 4.6,
+        "brand": "BeCool",
+        "title": "Men's Navy Sweatshirt",
+        "discountPrice": 726,
+        "actualPrice": 1799,
+        "color": "black",
+        "id": 69
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/red-plum-crewneck-fleece-sweatshirt-363691-1656188873-1.jpg",
+        "rating": 4.3,
+        "brand": "BeCool",
+        "title": "Men's Plum Red Sweatshirt",
+        "discountPrice": 845,
+        "actualPrice": 1899,
+        "color": "red",
+        "id": 70
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-black-all-over-printed-oversized-sweatshirt-504110-1672826995-1.jpg",
+        "rating": 4.4,
+        "brand": "BeCool",
+        "title": "Men's Black All Over Printed Oversized Sweatshirt",
+        "discountPrice": 1299,
+        "actualPrice": 2699,
+        "color": "black",
+        "id": 71
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-black-avenger-typogarphy-sweatshirt-390354-1672411181-1.jpg",
+        "rating": 4.6,
+        "brand": "BeCool",
+        "title": "Men's Black Avenger Typogarphy Sweatshirt",
+        "discountPrice": 573,
+        "actualPrice": 2099,
+        "color": "black",
+        "id": 72
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-pink-it-s-a-deal-graphic-printed-oversized-sweatshirt-552844-1672836480-1.jpg",
+        "rating": 4.5,
+        "brand": "BeCool",
+        "title": "Men's Pink It's a Deal Graphic Printed Oversized Sweatshirt",
+        "discountPrice": 1299,
+        "actualPrice": 2499,
+        "color": "pink",
+        "id": 73
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-prototype-1-0-printed-sweatshirt-557003-1670917676-1.jpg",
+        "rating": 4.7,
+        "brand": "BeCool",
+        "title": "Men's Grey Prototype Graphic Printed Sweatshirt",
+        "discountPrice": 1049,
+        "actualPrice": 2299,
+        "color": "grey",
+        "id": 74
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/goosebumps-oversized-sweatshirt-564613-1672061459-1.jpg",
+        "rating": 4.6,
+        "brand": "BeCool",
+        "title": "Men's Brown Goosebumps Graphic Printed Oversized Sweatshirt",
+        "discountPrice": 1299,
+        "actualPrice": 2399,
+        "color": "grey",
+        "id": 75
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-prototype-1-0-printed-sweatshirt-556952-1670918205-1.jpg",
+        "rating": 4.5,
+        "brand": "BeCool",
+        "title": "Men's Plum Red Prototype Graphic Printed Sweatshirt",
+        "discountPrice": 1049,
+        "actualPrice": 2499,
+        "color": "red",
+        "id": 76
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-yellow-enjoy-graphic-printed-oversized-sweatshirt-558225-1672834212-1.jpg",
+        "rating": null,
+        "brand": "BeCool",
+        "title": "Men's Yellow Enjoy Graphic Printed Oversized Sweatshirt",
+        "discountPrice": 1399,
+        "actualPrice": 2999,
+        "color": "yellow",
+        "id": 77
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-s-pink-wow-typography-oversized-sweatshirt-549270-1672834260-1.jpg",
+        "rating": 4.5,
+        "brand": "BeCool",
+        "title": "Men's Pink WOW Typography Oversized Sweatshirt",
+        "discountPrice": 736,
+        "actualPrice": 2499,
+        "color": "cream",
+        "id": 78
+      },
+      {
+        "image": "https://images.bewakoof.com/t640/men-nonchalance-printed-sweatshirt-559170-1672205143-1.jpg",
+        "rating": 4.6,
+        "brand": "BeCool",
+        "title": "Men's Black Nonchalance Typography Oversized Sweatshirt",
+        "discountPrice": 1221,
+        "actualPrice": 2099,
+        "color": "cream",
+        "id": 79
+      }
+
+  
+  ]
+
+}

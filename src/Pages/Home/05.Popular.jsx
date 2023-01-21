@@ -77,6 +77,8 @@ export default function Popular() {
       alt: "img12",
     },
   ];
+
+  
   return (
     <Box>
         <Heading textAlign={"center"} size={"md"} fontWeight={"700"} mt={5}>TRENDING CATEGORIES</Heading>

@@ -30,10 +30,27 @@ import {
   ChevronRightIcon,
 } from "@chakra-ui/icons";
 
-import becool from "../images/becool.png";
+import becool from "../Images/becool.png";
+import { useContext, useState } from "react";
+import { LinkContext } from "../Context/LinkContext";
+import { SearchContext } from "../Context/SearchContext";
+// import ProductPage from "../Pages/ProductPage";
 
+const initial = { search: "" };
 export default function WithSubnavigation() {
   const { isOpen, onToggle } = useDisclosure();
+  const [input, setInput] = useState(initial);
+  const { inputQuery } = useContext(SearchContext);
+
+  const { value } = input.search;
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setInput({ ...input, [name]: value });
+    inputQuery(input.search);
+  };
+  // console.log(input.search)
+
 
   return (
     <Box w={"100%"}>
@@ -95,13 +112,23 @@ export default function WithSubnavigation() {
           spacing={3}
           border={"0px solid black"}
         >
-          <InputGroup w="30%" variant="filled" size={"md"} color={"gray.600"}>
-            <InputLeftElement
-              pointerEvents="none"
-              children={<Search2Icon color="gray.600" />}
-            />
+          <InputGroup w="35%" variant="filled" size={"md"} color={"gray.600"}>
+            <Link href="/searchPage">
+              <InputLeftElement
+                pl={5}
+                pointerEvents="change"
+                children={<Search2Icon color="gray.600" />}
+              />
+            </Link>
             <Input
+              ml={2}
+              px={9}
               type="text"
+              name="search"
+              value={value}
+              onChange={handleChange}
+   
+              focusBorderColor="lightcoral"
               placeholder="Search here"
               color={"gray.600"}
               fontWeight={400}
@@ -155,7 +182,8 @@ const DesktopNav = () => {
   const linkColor = useColorModeValue("gray.600", "gray.200");
   const linkHoverColor = useColorModeValue("lightcoral");
   const popoverContentBgColor = useColorModeValue("white", "gray.800");
-
+  const { inputLink } = useContext(LinkContext);
+  // console.log(inputLink)
   return (
     <Stack direction={"row"} ml={10} spacing={-3}>
       {NAV_ITEMS.map((navItem) => (
@@ -163,8 +191,9 @@ const DesktopNav = () => {
           <Popover trigger={"hover"} placement={"bottom-start"}>
             <PopoverTrigger>
               <Link
+                onClick={() => inputLink(navItem.label)}
                 m={4}
-                href={navItem.href ?? "#"}
+                href={navItem.href}
                 fontSize={"sm"}
                 fontWeight={500}
                 color={linkColor}
@@ -302,6 +331,7 @@ const NAV_ITEMS = [
         href: "#",
       },
     ],
+    href: "/productPage",
   },
   {
     label: "WOMEN",

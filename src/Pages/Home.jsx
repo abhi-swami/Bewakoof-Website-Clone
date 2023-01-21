@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { Flex,useColorModeValue } from "@chakra-ui/react";
-import Slider1 from "./Home/02.Slider1"
 import CompanyBanner from "./Home/01.CompanyBanner";
+import Slider1 from "./Home/02.Slider1"
 import FeaturedDetails from "./Home/03.FeaturedDetails";
 import Designes from "./Home/04.Designes";
 import Popular from "./Home/05.Popular";
