@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHeart, faShoppingCart } from "@fortawesome/free-solid-svg-icons";
+import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import {
+  Circle,
   Box,
   Flex,
   Text,
@@ -32,8 +33,11 @@ import {
 
 import becool from "../Images/becool.png";
 import { useContext, useState } from "react";
+import Logout from "./Logout";
 import { LinkContext } from "../Context/LinkContext";
 import { SearchContext } from "../Context/SearchContext";
+import { LoginContext } from "../Context/LoginContext";
+import { FavoriteContext } from "../Context/FavoriteContext";
 // import ProductPage from "../Pages/ProductPage";
 
 const initial = { search: "" };
@@ -41,6 +45,8 @@ export default function WithSubnavigation() {
   const { isOpen, onToggle } = useDisclosure();
   const [input, setInput] = useState(initial);
   const { inputQuery } = useContext(SearchContext);
+  const { isLoggedIn } = useContext(LoginContext);
+  const { favCount } = useContext(FavoriteContext);
 
   const { value } = input.search;
 
@@ -49,8 +55,8 @@ export default function WithSubnavigation() {
     setInput({ ...input, [name]: value });
     inputQuery(input.search);
   };
-  // console.log(input.search)
-
+  console.log(input.search);
+  console.log(favCount);
 
   return (
     <Box w={"100%"}>
@@ -127,51 +133,60 @@ export default function WithSubnavigation() {
               name="search"
               value={value}
               onChange={handleChange}
-   
               focusBorderColor="lightcoral"
               placeholder="Search here"
               color={"gray.600"}
               fontWeight={400}
             />
           </InputGroup>
-          <Link
-            href={"/login"}
-            _hover={{
-              textDecor: "none",
-            }}
-          >
-            <Button
-              display={{ base: "none", md: "inline-flex" }}
-              fontSize={"sm"}
-              fontWeight={600}
-              color={"gray.600"}
+          {isLoggedIn ? (
+            <Logout />
+          ) : (
+            <Link
+              href={"/login"}
               _hover={{
-                bg: "lightcoral",
                 textDecor: "none",
               }}
             >
-              Login
-            </Button>
+              <Button
+                display={{ base: "none", md: "inline-flex" }}
+                fontSize={"sm"}
+                fontWeight={600}
+                color={"gray.600"}
+                _hover={{
+                  bg: "lightcoral",
+                  textDecor: "none",
+                }}
+              >
+                Login
+              </Button>
+            </Link>
+          )}
+          <Button
+            fontSize={"lg"}
+            variant="link"
+            _hover={{
+              bg: "lightcoral",
+            }}
+            color={
+              isLoggedIn ? (favCount === 0 ? "gray.400" : "yellow.400") : null
+            }
+          >
+            {isLoggedIn ? (favCount === 0 ? null : null) : null}
+            <i color="yellow" class="fa-solid fa-heart"></i>
+          </Button>
+            <Button
+              fontSize={"lg"}
+              spacing={-5}
+              variant="link"
+              _hover={{
+                bg: "lightcoral",
+              }}
+            >
+              <Link href="/cart">
+              <i class="fa-solid fa-cart-shopping"></i>
           </Link>
-          <Button
-            fontSize={"lg"}
-            variant="link"
-            _hover={{
-              bg: "lightcoral",
-            }}
-          >
-            <FontAwesomeIcon icon={faHeart} />
-          </Button>
-          <Button
-            fontSize={"lg"}
-            spacing={-5}
-            variant="link"
-            _hover={{
-              bg: "lightcoral",
-            }}
-          >
-            <FontAwesomeIcon icon={faShoppingCart} />
-          </Button>
+            </Button>
         </Stack>
       </Flex>
     </Box>

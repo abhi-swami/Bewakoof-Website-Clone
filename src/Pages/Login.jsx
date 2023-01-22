@@ -1,27 +1,80 @@
-
-
 import {
+  useDisclosure,
+  Button,
+  Modal,
+  ModalOverlay,
+  ModalContent,
+  ModalHeader,
+  ModalFooter,
+  ModalBody,
+  ModalCloseButton,
+  PinInput,
+  PinInputField,
+  HStack,
+  Text,
+  Heading,
   Box,
   Flex,
   Stack,
-  Heading,
-  Text,
   Container,
   Input,
-  Button,
   SimpleGrid,
   Image,
   useColorModeValue,
-  HStack,
   InputGroup,
   InputLeftAddon,
+  useToast,
 } from "@chakra-ui/react";
-import {EmailIcon}from "@chakra-ui/icons";
-import { Link } from "react-router-dom";
+import { EmailIcon } from "@chakra-ui/icons";
+import { Link, } from "react-router-dom";
+import { useState } from "react";
+import { useContext } from "react";
+import { LoginContext } from "../Context/LoginContext";
+
+const initial = { user: "" };
+export default function Login() {
+  const { isOpen, onOpen, onClose } = useDisclosure();
+  const [userNumber, setUserNumber] = useState(initial);
+  const {isLoggedIn, inputLogin }=useContext(LoginContext)
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setUserNumber({ ...userNumber, [name]: value });
+  };
 
 
+  const handleLogin = () => {
+    if (userNumber.user.length === 10) {
+      onOpen();
+    }
+    toast(
+      userNumber.user.length !== 10
+        ? {
+            title: "Please Enter 10 Digit Number",
+            description: "Unable To Login",
+            status: "info",
+            duration: 1000,
+            isClosable: true,
+          }
+        : {
+            title: `Weclome, an OTP is Sent To ${userNumber.user} `,
+            description: "Nice to See You Again !",
+            status: "success",
+            duration: 1000,
+            isClosable: true,
+          }
+    );
+  };
 
-export default function Logi() {
+
+  const HandleSubmitOTP = () => {
+    onClose();
+    inputLogin();
+    
+  };
+  const { num } = userNumber;
+  const toast = useToast();
+ 
   return (
     <Box position={"relative"}>
       <Container
@@ -87,7 +140,10 @@ export default function Logi() {
               >
                 <InputLeftAddon border={0} fontSize={"xl"} children="+91" />
                 <Input
+                  onChange={handleChange}
                   type="number"
+                  name="user"
+                  value={num}
                   border={0}
                   fontSize={"xl"}
                   placeholder="Enter Phone Number"
@@ -107,9 +163,47 @@ export default function Logi() {
                   bgGradient: "linear(to-r, red.400,pink.400)",
                   boxShadow: "xl",
                 }}
+                onClick={handleLogin}
               >
                 Submit
               </Button>
+              <Modal isOpen={isOpen} onClose={onClose}>
+                <ModalOverlay />
+                <ModalContent>
+                  <ModalHeader>
+                    <Heading size={"sm"}>Please Enter OTP Send to {userNumber.user}</Heading>
+                  </ModalHeader>
+                  <ModalCloseButton />
+                  <ModalBody>
+                    <HStack my={5}></HStack>
+                    <HStack justifyContent={"center"} alignItems={"center"}>
+                      <PinInput type="alphanumeric" mask>
+                        <PinInputField border={"2px solid lightcoral"} />
+                        <PinInputField border={"2px solid lightcoral"} />
+                        <PinInputField border={"2px solid lightcoral"} />
+                        <PinInputField border={"2px solid lightcoral"} />
+                      </PinInput>
+                    </HStack>
+                  </ModalBody>
+
+                  <ModalFooter justifyContent={"center"} alignItems={"center"}>
+                    <Link to="/searchPage">
+
+                    <Button
+                    onClick={HandleSubmitOTP}
+                      variant="ghost"
+                      bgColor="green"
+                      mr={3}
+                      color={"white"}
+                      _hover={{ color: "black" }}
+                    >
+                      Submit OTP
+                    </Button>
+                    </Link>
+
+                  </ModalFooter>
+                </ModalContent>
+              </Modal>
               <Flex
                 align={"center"}
                 _before={{
@@ -136,17 +230,14 @@ export default function Logi() {
                 </Heading>
               </Flex>
               <Button
-
-                  fontSize={"xl"}
-                  leftIcon={<EmailIcon />} 
-                  w={"full"}
-                  color={"gray.500"}
-                  colorScheme="gray"
-                >
-                    <Link to={"/signup"}>
-                  {"   "}   CONTINUE    TO    SIGN-UP
-                    </Link>
-                </Button>
+                fontSize={"xl"}
+                leftIcon={<EmailIcon />}
+                w={"full"}
+                color={"gray.500"}
+                colorScheme="gray"
+              >
+                <Link to={"/signup"}>{"   "} CONTINUE TO SIGN-UP</Link>
+              </Button>
               <HStack>
                 <Button
                   fontSize={"xl"}
@@ -187,4 +278,3 @@ export default function Logi() {
     </Box>
   );
 }
-

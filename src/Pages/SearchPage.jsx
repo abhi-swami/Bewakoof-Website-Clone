@@ -24,6 +24,7 @@ import { useState, useEffect, useContext } from "react";
 import CardComponent from "../Components/CardComponent";
 
 import { SearchContext } from "../Context/SearchContext";
+import Pagination from '../Components/Pagination';
 
 const categories = [
   { id: 1, category: "T-Shirt" },
@@ -76,44 +77,64 @@ export default function ProductPage() {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
   const { query } = useContext(SearchContext);
-  // console.log(query)
+  const [priceSorting, setPriceSorting] = useState("asc");
+  const [starSorting, setStarSorting] = useState("asc");
+  const [page,setPage]=useState(1);
+  const [totalPage,setTotalPage]=useState(0)
+  
 
-  const getData = (query) => {
-    return fetch(`${url}?q=${query}`).then((res) => res.json());
-  };
-  const fetchData = async (query) => {
+  const getData=async(url)=>{
+    try{
+      const res= await fetch(url)
+      const data=await res.json();
+      // console.log(res)
+      return{
+        totalCount:+res.headers.get(`X-Total-Count`),
+        data,
+      }
+    }catch(err){
+      console.log(err)
+    }
+  }
+  const fetchData = async (query,page,priceSorting,starSorting) => {
     setLoading(true);
     try {
-      const res = await getData(query);
-      setData(res);
+      const res = await getData(`${url}?q=${query}&_sort=discountPrice,rating&_order=${priceSorting},${starSorting}&_page=${page}&_limit=6`);
+      const{totalCount,data}=res;
+      setTotalPage(totalCount);
+      setData(data);
+     ;
       setLoading(false);
     } catch (err) {
       setLoading(false);
     }
   };
+
   useEffect(() => {
     setLoading(true);
     const id = setTimeout(() => {
-      fetchData(query);
-    }, 1000);
+      fetchData(query,page,priceSorting,starSorting);
+    }, 100);
     const cleanUp = () => {
       clearTimeout(id);
     };
     return cleanUp;
-  }, [query]);
-  // console.log(data)
+  }, [query,page, priceSorting,starSorting]);
+
+  const handlePage=(x)=>{
+    setPage(page+x)
+  }
 
   return (
     <Box pos={"relative"}>
       <Grid
-        minHeight={"200vh"}
+        minHeight={"100vh"}
         pos={"relative"}
         templateColumns={"28% 60%"}
         gap={4}
         py={{ base: 1, sm: 2, lg: 2 }}
         mt={15}
       >
-        {/* <Scrollbars  style={{ width: 380, height: 100 }}> */}
         <GridItem ml={3} position={"-webkit-sticky"}>
           <Heading
             size={"sm"}
@@ -123,10 +144,9 @@ export default function ProductPage() {
             ml={20}
             my={5}
           >
-            Results 
+            Results
           </Heading>
           <Box
-            // border={"1px solid black"}
             pos={"sticky"}
             top={120}
             w={"70%"}
@@ -186,7 +206,7 @@ export default function ProductPage() {
                 <h2>
                   <AccordionButton _hover={{ backgroundColor: "lightcoral" }}>
                     <Box as="span" flex="1" textAlign="left">
-                      Sizes
+                      Brands
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
@@ -206,6 +226,40 @@ export default function ProductPage() {
                   </VStack>
                 </AccordionPanel>
               </AccordionItem>
+              <AccordionItem>
+                <h2>
+                  <AccordionButton _hover={{ backgroundColor: "lightcoral" }}>
+                    <Box as="span" flex="1" textAlign="left">
+                      Star Rating
+                    </Box>
+                    <AccordionIcon />
+                  </AccordionButton>
+                </h2>
+                <AccordionPanel pb={4}>
+                  <VStack>
+              
+                      <Button
+                      onClick={()=>setStarSorting("asc")}
+                      disabled={starSorting==="asc"}
+                        _hover={{ backgroundColor:starSorting==="asc"? "lightcoral":"none" }}
+                        fontSize={"sm"}
+                        w={"100%"}
+                      >
+                        Star: Low To High
+                      </Button>
+                      <Button
+                      disabled={starSorting==="desc"}
+                      onClick={()=>setStarSorting("desc")}
+                        _hover={{ backgroundColor: starSorting==="desc"? "lightcoral": "none" }}
+                        fontSize={"sm"}
+                        w={"100%"}
+                      >
+                        Star: High To Low
+                      </Button>
+       
+                  </VStack>
+                </AccordionPanel>
+              </AccordionItem>
             </Accordion>
           </Box>
         </GridItem>
@@ -222,16 +276,18 @@ export default function ProductPage() {
               <MenuList minW="10px">
                 <MenuOptionGroup defaultValue="asc" type="radio">
                   <MenuItemOption
+                    onClick={() => setPriceSorting("asc")}
                     _hover={{ backgroundColor: "lightcoral" }}
                     value="asc"
                   >
-                    Ascending
+                    Price: Low To High
                   </MenuItemOption>
                   <MenuItemOption
+                    onClick={() => setPriceSorting("desc")}
                     _hover={{ backgroundColor: "lightcoral" }}
                     value="desc"
                   >
-                    Descending
+                    Price:Hight To Low
                   </MenuItemOption>
                 </MenuOptionGroup>
               </MenuList>
@@ -240,8 +296,7 @@ export default function ProductPage() {
           <SimpleGrid columns={3} spacing="50px">
             {loading ? (
               <Image
-              ml={"300px"}
-
+                ml={"300px"}
                 src="https://images.bewakoof.com/web/bwkf-loading-anim-common.gif"
                 alt={"loader imag"}
               ></Image>
@@ -255,6 +310,7 @@ export default function ProductPage() {
           </SimpleGrid>
         </GridItem>
       </Grid>
+        <Pagination page={page} handlePage={handlePage} totalPage={totalPage} />
     </Box>
   );
 }

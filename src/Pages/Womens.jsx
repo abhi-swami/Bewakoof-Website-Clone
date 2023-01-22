@@ -1,9 +1,9 @@
-import CardComponent from "../Components/CardComponent"
+import PopUp from "./PopUp"
 export default function Womens(){
     return(
         <div>
             <h1>womens</h1>
-            <CardComponent/>
+            <PopUp/>
         </div>
     )
 }

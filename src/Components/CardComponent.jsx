@@ -7,14 +7,31 @@ import {
   Text,
   HStack,
   Grid,
+  Button,
 } from "@chakra-ui/react";
+import { useContext } from "react";
+import {Link, useNavigate} from  "react-router-dom"
+import { FavoriteContext } from "../Context/FavoriteContext";
+import { LoginContext } from "../Context/LoginContext";
 
 
+export default function CardComponent({
+  actualPrice,
+  discountPrice,
+  image,
+  rating,
+  brand,
+  title,
+  id,
+}) {
+  const { isLoggedIn } = useContext(LoginContext);
+  const {favCount, IncrementFavCount}=useContext(FavoriteContext)
+  const handleheart = () => {
+    IncrementFavCount()
 
+  };
 
-function CardComponent({actualPrice,discountPrice,image,rating,brand,title,id}) {
-
-  let x=Math.ceil( discountPrice-((discountPrice*8)/100))
+  let x = Math.ceil(discountPrice - (discountPrice * 8) / 100);
   return (
     <Grid alignItems="center" justifyContent="space-evenly" gap={9}>
       <Box
@@ -25,19 +42,18 @@ function CardComponent({actualPrice,discountPrice,image,rating,brand,title,id}) 
         shadow="lg"
         position="relative"
       >
-      
-          <Text
-            position="absolute"
-            top={0}
-            left={0}
-            p={"3px"}
-            bg={"rgb(113,113,113)"}
-            color={"white"}
-            fontSize={"10px"}
-          >
-            OVERSIZE FIT
-          </Text>
-    
+        <Text
+          position="absolute"
+          top={0}
+          left={0}
+          p={"3px"}
+          bg={"rgb(113,113,113)"}
+          color={"white"}
+          fontSize={"10px"}
+        >
+          OVERSIZE FIT
+        </Text>
+
         <HStack
           position="absolute"
           top={270}
@@ -66,9 +82,18 @@ function CardComponent({actualPrice,discountPrice,image,rating,brand,title,id}) 
             >
               {brand}
             </Text>
-            <Text color={"gray.400"} _hover={{color:"lightcoral"}} mr={3}>
-            <i class="fa-solid fa-heart"></i>
-            </Text>
+            <Link  to={isLoggedIn?null:"/login"}>
+              <Button
+                variant="ghost"
+                color={"gray.400"}
+                _hover={{ color: "lightcoral" }}
+                mr={3}
+                onClick={handleheart}
+              >
+                <i class="fa-solid fa-heart"></i>
+                {/* {isLoggedIn?favCount===0?null:<Text>{favCount}</Text>:<Text>{favCount}</Text>} */}
+              </Button>
+            </Link>
           </Flex>
 
           <Flex mt="1" justifyContent="space-between" alignContent="center">
@@ -93,13 +118,11 @@ function CardComponent({actualPrice,discountPrice,image,rating,brand,title,id}) 
           >
             <Text>₹ {discountPrice}</Text>
             <Text textDecor={"line-through"} pt={1} fontSize={"11px"}>
-            ₹ {actualPrice}
+              ₹ {actualPrice}
             </Text>
           </HStack>
           <Box d="flex" alignItems="baseline">
             <Badge rounded={1} px="2" fontSize="0.8em" colorScheme="gray">
-
-         
               ₹ {x} for TriBe Members
             </Badge>
           </Box>
@@ -109,4 +132,4 @@ function CardComponent({actualPrice,discountPrice,image,rating,brand,title,id}) 
   );
 }
 
-export default CardComponent;
+;
