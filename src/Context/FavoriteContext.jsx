@@ -8,8 +8,9 @@ export default function FavoriteContextProvider({ children }) {
       let x=favCount+1
       setFavCount(x)
     }
-    const DecrementFavCount=(x)=>{
+    const DecrementFavCount=()=>{
       if(favCount>=0){
+        const x=favCount-1;
         setFavCount(x)
       }
     }

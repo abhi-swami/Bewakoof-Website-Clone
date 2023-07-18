@@ -1,5 +1,8 @@
+
+
 import { Button, Flex, Tooltip } from "@chakra-ui/react";
 // import {} from "chakra-paginator"
+const url = `http://localhost:8080/allProduct`;
 export default function Pagination({ page, handlePage, totalPage }) {
 
   return (

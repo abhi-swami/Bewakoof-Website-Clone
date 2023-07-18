@@ -36,6 +36,7 @@ export default function Login() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [userNumber, setUserNumber] = useState(initial);
   const {isLoggedIn, inputLogin }=useContext(LoginContext)
+  // console.log(isLoggedIn)
 
   const handleChange = (e) => {
     const { name, value } = e.target;

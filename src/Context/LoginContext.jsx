@@ -11,5 +11,6 @@ export default function LoginContextProvider({ children }) {
     }
     const inputLogout=()=>{
         setIsLoggedIn(false)
+
     }
   return <LoginContext.Provider value={{isLoggedIn, inputLogin,inputLogout }}>{children}</LoginContext.Provider>}

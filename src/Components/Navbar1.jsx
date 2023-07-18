@@ -1,7 +1,6 @@
 import Navbar2 from "./Navbar2"
 
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faDownload} from "@fortawesome/free-solid-svg-icons"
+
 import {
   Box,
   Flex,
@@ -46,7 +45,7 @@ export default function Navbar1() {
                  
               {Links.map((link) =>
                 link==="DownLoad App"?
-                  (<NavLink key={link}><FontAwesomeIcon icon={faDownload}/>{"   "}{  link}</NavLink>):(<NavLink key={link}> {link}</NavLink>)
+                  (<NavLink key={link}><i class="fa-solid fa-download"></i>{"   "}{  link}</NavLink>):(<NavLink key={link}> {link}</NavLink>)
 
                   )}
             </HStack>

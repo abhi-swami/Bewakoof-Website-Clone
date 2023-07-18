@@ -1,5 +1,5 @@
 {
-  "name": "be-cool-embarrassed-cracker",
+  "name": "projectbecool",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,19 +7,12 @@
     "@chakra-ui/react": "^2.4.9",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
-    "@fortawesome/fontawesome-svg-core": "^6.2.1",
-    "@fortawesome/free-regular-svg-icons": "^6.2.1",
-    "@fortawesome/free-solid-svg-icons": "^6.2.1",
-    "@fortawesome/react-fontawesome": "^0.2.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.2.3",
-    "chakra-paginator": "^0.7.3",
     "framer-motion": "^8.5.0",
     "react": "^18.2.0",
-    "react-alice-carousel": "^2.7.0",
-    "react-custom-scrollbars": "^4.2.1",
     "react-dom": "^18.2.0",
     "react-multi-carousel": "^2.8.2",
     "react-router-dom": "^6.7.0",
@@ -27,6 +20,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "server":"npx json-server --watch db.json --port 8080",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -8,6 +8,7 @@ import { BrowserRouter } from "react-router-dom";
 import LinkContextProvider from "./Context/LinkContext";
 import SearchContextProvider from "./Context/SearchContext";
 import FavoriteContextProvider from "./Context/FavoriteContext";
+import CartContextProvider from "./Context/CartContext";
 import LoginContextProvider from "./Context/LoginContext";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -15,11 +16,13 @@ root.render(
     <ChakraProvider>
       <LoginContextProvider>
         <FavoriteContextProvider>
-          <SearchContextProvider>
-            <LinkContextProvider>
-              <App />
-            </LinkContextProvider>
-          </SearchContextProvider>
+          <CartContextProvider>
+            <SearchContextProvider>
+              <LinkContextProvider>
+                <App />
+              </LinkContextProvider>
+            </SearchContextProvider>
+          </CartContextProvider>
         </FavoriteContextProvider>
       </LoginContextProvider>
     </ChakraProvider>

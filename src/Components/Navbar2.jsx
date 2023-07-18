@@ -1,7 +1,6 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
+
 import {
-  Circle,
+  Circle ,
   Box,
   Flex,
   Text,
@@ -22,6 +21,7 @@ import {
   Input,
   InputGroup,
   InputLeftElement,
+  Center,
 } from "@chakra-ui/react";
 
 import {
@@ -36,10 +36,12 @@ import { useContext, useState } from "react";
 import Logout from "./Logout";
 import { LinkContext } from "../Context/LinkContext";
 import { SearchContext } from "../Context/SearchContext";
-import { LoginContext } from "../Context/LoginContext";
+import {  LoginContext } from "../Context/LoginContext";
 import { FavoriteContext } from "../Context/FavoriteContext";
-// import ProductPage from "../Pages/ProductPage";
+import { useNavigate } from "react-router-dom";
+import { CartContext } from "../Context/CartContext";
 
+// import ProductPage from "../Pages/ProductPage";
 const initial = { search: "" };
 export default function WithSubnavigation() {
   const { isOpen, onToggle } = useDisclosure();
@@ -47,7 +49,11 @@ export default function WithSubnavigation() {
   const { inputQuery } = useContext(SearchContext);
   const { isLoggedIn } = useContext(LoginContext);
   const { favCount } = useContext(FavoriteContext);
+  const {cartCount}=useContext(CartContext)
 
+
+  const navigate=useNavigate();
+  
   const { value } = input.search;
 
   const handleChange = (e) => {
@@ -55,8 +61,17 @@ export default function WithSubnavigation() {
     setInput({ ...input, [name]: value });
     inputQuery(input.search);
   };
-  console.log(input.search);
-  console.log(favCount);
+  const handleKeyDown = (e) => {
+    if(e.key==="Enter"){
+      navigate("/searchPage")
+    }
+  };
+  const handleHeart=()=>{
+    if(isLoggedIn&& favCount){
+      navigate("/login")
+
+    }
+  }
 
   return (
     <Box w={"100%"}>
@@ -93,7 +108,7 @@ export default function WithSubnavigation() {
           size={"sm"}
           border="0px solid black"
         >
-          <Link href="./">
+    
             <Image
               src={becool}
               alt="asdfas"
@@ -103,8 +118,9 @@ export default function WithSubnavigation() {
               _hover={{
                 cursor: "pointer",
               }}
+              onClick={()=>navigate("/")}
             />
-          </Link>
+       
 
           <Flex display={{ base: "left", md: "flex" }} mt="5px">
             <DesktopNav />
@@ -119,13 +135,13 @@ export default function WithSubnavigation() {
           border={"0px solid black"}
         >
           <InputGroup w="35%" variant="filled" size={"md"} color={"gray.600"}>
-            <Link href="/searchPage">
+          
               <InputLeftElement
                 pl={5}
                 pointerEvents="change"
                 children={<Search2Icon color="gray.600" />}
               />
-            </Link>
+         
             <Input
               ml={2}
               px={9}
@@ -133,6 +149,7 @@ export default function WithSubnavigation() {
               name="search"
               value={value}
               onChange={handleChange}
+              onKeyDown={handleKeyDown}
               focusBorderColor="lightcoral"
               placeholder="Search here"
               color={"gray.600"}
@@ -142,12 +159,7 @@ export default function WithSubnavigation() {
           {isLoggedIn ? (
             <Logout />
           ) : (
-            <Link
-              href={"/login"}
-              _hover={{
-                textDecor: "none",
-              }}
-            >
+         
               <Button
                 display={{ base: "none", md: "inline-flex" }}
                 fontSize={"sm"}
@@ -157,10 +169,11 @@ export default function WithSubnavigation() {
                   bg: "lightcoral",
                   textDecor: "none",
                 }}
+                onClick={()=>navigate("/login")}
               >
                 Login
               </Button>
-            </Link>
+            
           )}
           <Button
             fontSize={"lg"}
@@ -171,8 +184,8 @@ export default function WithSubnavigation() {
             color={
               isLoggedIn ? (favCount === 0 ? "gray.400" : "yellow.400") : null
             }
+            onClick={()=>handleHeart()}
           >
-            {isLoggedIn ? (favCount === 0 ? null : null) : null}
             <i color="yellow" class="fa-solid fa-heart"></i>
           </Button>
             <Button
@@ -182,10 +195,11 @@ export default function WithSubnavigation() {
               _hover={{
                 bg: "lightcoral",
               }}
-            >
-              <Link href="/cart">
-              <i class="fa-solid fa-cart-shopping"></i>
-          </Link>
+              >
+             
+              <i class="fa-solid fa-cart-shopping" onClick={()=>navigate("/cart")}></i>
+              {isLoggedIn ? (cartCount === 0 ?  null:<Circle size='40px'w={"14px"} h={"14px"} bg='tomato' color='white'><Text as={"span"} fontSize={"10px"} color={"white"}>{cartCount}</Text></Circle> ) : null}
+          {/* </Link> */}
             </Button>
         </Stack>
       </Flex>
@@ -198,17 +212,24 @@ const DesktopNav = () => {
   const linkHoverColor = useColorModeValue("lightcoral");
   const popoverContentBgColor = useColorModeValue("white", "gray.800");
   const { inputLink } = useContext(LinkContext);
-  // console.log(inputLink)
+  const navigate=useNavigate();
+
+
+  const handleNavButton=(name,address)=>{
+    inputLink(name)
+    navigate(address)
+  }
+ 
   return (
     <Stack direction={"row"} ml={10} spacing={-3}>
       {NAV_ITEMS.map((navItem) => (
         <Box key={navItem.label}>
           <Popover trigger={"hover"} placement={"bottom-start"}>
             <PopoverTrigger>
-              <Link
-                onClick={() => inputLink(navItem.label)}
+              <Button
+                onClick={() =>handleNavButton (navItem.label,navItem.href)}
+                variant="link"
                 m={4}
-                href={navItem.href}
                 fontSize={"sm"}
                 fontWeight={500}
                 color={linkColor}
@@ -218,7 +239,7 @@ const DesktopNav = () => {
                 }}
               >
                 {navItem.label}
-              </Link>
+              </Button>
             </PopoverTrigger>
 
             {navItem.children && (

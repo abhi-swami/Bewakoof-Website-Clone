@@ -7,15 +7,19 @@ import {
   MenuGroup,
   MenuDivider,
   Box,
+
 } from "@chakra-ui/react";
 import { useContext } from "react";
-import {Link} from 'react-router-dom'
+import {useNavigate} from 'react-router-dom'
 import { LoginContext } from "../Context/LoginContext";
 export default function AvatarImage() {
-  const { inputLogout } = useContext(LoginContext);
+  const {isLoggedIn, inputLogout } = useContext(LoginContext);
+  const navigate=useNavigate();
   const handleLogout = () => {
     inputLogout()
+    navigate("/")
   };
+
   return (
     <Box mx={50}>
       <Menu maxW={"20%"}>
@@ -37,9 +41,9 @@ export default function AvatarImage() {
             <MenuItem>Docs</MenuItem>
           </MenuGroup>
           <MenuGroup title="">
-            <Link to="/">
+          
               <MenuItem onClick={handleLogout}>Logout</MenuItem>
-            </Link>
+       
           </MenuGroup>
         </MenuList>
       </Menu>

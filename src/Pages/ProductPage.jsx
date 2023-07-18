@@ -22,6 +22,7 @@ import {
 import { useState,useEffect, useContext } from "react";
 import CardComponent from "../Components/CardComponent"
 import { LinkContext } from "../Context/LinkContext";
+import { useNavigate } from "react-router-dom";
 
 
 const categories=[
@@ -70,11 +71,12 @@ const Brands=[
   {id:10,category:"Hubberholme"},
 ]
 
-const url=`http://localhost:8080/allProduct`
+const url=`https://becool-project.onrender.com/allProduct`
 export default function ProductPage() {
+  
   const [data,setData]=useState([]);
   const {link}=useContext(LinkContext);
-  // console.log(link)
+  const navigate=useNavigate()
 
 
   const getData=()=>{
@@ -176,7 +178,7 @@ export default function ProductPage() {
             </Menu>
           </Flex>
           <SimpleGrid columns={3} spacing='50px'>
-            {data.map((el)=><Box key={el.id}><CardComponent key={el.id} {...el} /></Box>)}
+            {data.map((el)=><Box onClick={()=>navigate(`/allProduct/${el.id}`)}  key={el.id}><CardComponent key={el.id} {...el} /></Box>)}
             
           </SimpleGrid>
         </GridItem>
@@ -184,3 +186,4 @@ export default function ProductPage() {
     </Box>
   );
 }
+

@@ -10,10 +10,9 @@ import {
   Button,
 } from "@chakra-ui/react";
 import { useContext } from "react";
-import {Link, useNavigate} from  "react-router-dom"
+import {useNavigate} from  "react-router-dom"
 import { FavoriteContext } from "../Context/FavoriteContext";
 import { LoginContext } from "../Context/LoginContext";
-
 
 export default function CardComponent({
   actualPrice,
@@ -25,11 +24,16 @@ export default function CardComponent({
   id,
 }) {
   const { isLoggedIn } = useContext(LoginContext);
-  const {favCount, IncrementFavCount}=useContext(FavoriteContext)
+  const { IncrementFavCount}=useContext(FavoriteContext);
+  const navigate=useNavigate();
   const handleheart = () => {
-    IncrementFavCount()
-
+    if(!isLoggedIn){
+      navigate("/login")
+    }
   };
+  if(isLoggedIn){
+    IncrementFavCount()
+  }
 
   let x = Math.ceil(discountPrice - (discountPrice * 8) / 100);
   return (
@@ -82,7 +86,7 @@ export default function CardComponent({
             >
               {brand}
             </Text>
-            <Link  to={isLoggedIn?null:"/login"}>
+            {/* <Link  to={isLoggedIn?null:"/login"}> */}
               <Button
                 variant="ghost"
                 color={"gray.400"}
@@ -93,7 +97,7 @@ export default function CardComponent({
                 <i class="fa-solid fa-heart"></i>
                 {/* {isLoggedIn?favCount===0?null:<Text>{favCount}</Text>:<Text>{favCount}</Text>} */}
               </Button>
-            </Link>
+            {/* </Link> */}
           </Flex>
 
           <Flex mt="1" justifyContent="space-between" alignContent="center">

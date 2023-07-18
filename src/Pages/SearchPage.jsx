@@ -25,6 +25,7 @@ import CardComponent from "../Components/CardComponent";
 
 import { SearchContext } from "../Context/SearchContext";
 import Pagination from '../Components/Pagination';
+import { useNavigate } from "react-router-dom";
 
 const categories = [
   { id: 1, category: "T-Shirt" },
@@ -72,7 +73,7 @@ const Brands = [
   { id: 10, category: "Hubberholme" },
 ];
 
-const url = `http://localhost:8080/allProduct`;
+const url = `https://becool-project.onrender.com/allproduct`;
 export default function ProductPage() {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -81,6 +82,7 @@ export default function ProductPage() {
   const [starSorting, setStarSorting] = useState("asc");
   const [page,setPage]=useState(1);
   const [totalPage,setTotalPage]=useState(0)
+  const navigate =useNavigate()
   
 
   const getData=async(url)=>{
@@ -302,7 +304,7 @@ export default function ProductPage() {
               ></Image>
             ) : (
               data.map((el) => (
-                <Box key={el.id}>
+                <Box key={el.id} onClick={()=>navigate(`/searchPage/${el.id}`)}>
                   <CardComponent key={el.id} {...el} />
                 </Box>
               ))

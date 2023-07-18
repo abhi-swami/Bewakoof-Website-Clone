@@ -11,6 +11,7 @@ import SearchPage from "./SearchPage";
 import Favorite from "./Favorite";
 import Cart from "./Cart";
 import PrivateRoute from "./PrivateRoute";
+import SingleProductPage from "./SingalProductPage";
 
 export default function AllPages() {
   return (
@@ -25,12 +26,13 @@ export default function AllPages() {
       <Route path="/productPage" element={<ProductPage />} />
       <Route path="/searchPage" element={<SearchPage />} />
       <Route path="/favorite" element={<Favorite />} />
+      <Route path="/searchPage/:id" element={<SingleProductPage />} />
       <Route
         path="/cart"
         element={
-        //   <PrivateRoute>
+          <PrivateRoute>
             <Cart />
-        //   </PrivateRoute>
+        </PrivateRoute>
         }
       />
     </Routes>

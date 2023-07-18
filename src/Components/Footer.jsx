@@ -14,7 +14,6 @@ import {
   Image,
 } from "@chakra-ui/react";
 
-// import {faFacebook} from '@fortawesome/react-fontawesome'
 
 const MensTopwear = [
   {
