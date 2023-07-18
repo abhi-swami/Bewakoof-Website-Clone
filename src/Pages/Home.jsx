@@ -25,7 +25,8 @@ export default function Home() {
       <Flex
         justifyContent="center"
         gap={9}
-        templateRows={"repeate(3,1fr)"}
+        gridTemplateRows={"repeate(3,1fr)"}
+        // templateRows={"repeate(3,1fr)"}
         space={3}
         bg={useColorModeValue("gray.200", "gray.700")}
         fontSize={"lg"}

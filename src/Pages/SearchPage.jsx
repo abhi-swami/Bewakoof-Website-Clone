@@ -73,8 +73,9 @@ const Brands = [
   { id: 10, category: "Hubberholme" },
 ];
 
-const url = `https://becool-project.onrender.com/allproduct`;
+// const url = `https://becool-project.onrender.com/allproduct`;
 export default function ProductPage() {
+  const url = `${process.env.REACT_APP_BASE_URL}`;
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
   const { query } = useContext(SearchContext);

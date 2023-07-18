@@ -11,9 +11,9 @@ import {
 } from "@chakra-ui/react";
 import { useContext } from "react";
 import {useNavigate} from 'react-router-dom'
-import { LoginContext } from "../Context/LoginContext";
-export default function AvatarImage() {
-  const {isLoggedIn, inputLogout } = useContext(LoginContext);
+import { LoginContext } from "../../Context/LoginContext.jsx";
+export default function Logout() {
+  const { inputLogout } = useContext(LoginContext);
   const navigate=useNavigate();
   const handleLogout = () => {
     inputLogout()

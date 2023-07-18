@@ -8,6 +8,8 @@
       "discountPrice": 749,
       "actualPrice": 1499,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 1
     },
     {
@@ -18,6 +20,8 @@
       "discountPrice": 599,
       "actualPrice": 1499,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 2
     },
     {
@@ -28,6 +32,8 @@
       "discountPrice": 499,
       "actualPrice": 1499,
       "color": "blue",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 3
     },
     {
@@ -38,6 +44,8 @@
       "discountPrice": 549,
       "actualPrice": 1499,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 4
     },
     {
@@ -47,6 +55,8 @@
       "discountPrice": 499,
       "actualPrice": 1499,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 5
     },
     {
@@ -57,6 +67,8 @@
       "discountPrice": 549,
       "actualPrice": "1099",
       "color": "black",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 6
     },
     {
@@ -67,6 +79,8 @@
       "discountPrice": 699,
       "actualPrice": 1499,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 7
     },
     {
@@ -77,6 +91,8 @@
       "discountPrice": 449,
       "actualPrice": "999",
       "color": "black",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 8
     },
     {
@@ -87,6 +103,8 @@
       "discountPrice": 499,
       "actualPrice": 1499,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 9
     },
     {
@@ -97,6 +115,8 @@
       "discountPrice": 549,
       "actualPrice": 1099,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 10
     },
     {
@@ -107,6 +127,8 @@
       "discountPrice": 399,
       "actualPrice": 1199,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 11
     },
     {
@@ -117,6 +139,8 @@
       "discountPrice": 499,
       "actualPrice": 999,
       "color": "white",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 12
     },
     {
@@ -127,6 +151,8 @@
       "discountPrice": 499,
       "actualPrice": 1199,
       "color": "white",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 13
     },
     {
@@ -137,6 +163,8 @@
       "discountPrice": 599,
       "actualPrice": 1299,
       "color": "grey",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 14
     },
     {
@@ -147,6 +175,8 @@
       "discountPrice": 449,
       "actualPrice": 999,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 15
     },
     {
@@ -157,6 +187,8 @@
       "discountPrice": 499,
       "actualPrice": 999,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 16
     },
     {
@@ -167,6 +199,8 @@
       "discountPrice": 349,
       "actualPrice": 1099,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 17
     },
     {
@@ -177,6 +211,8 @@
       "discountPrice": 699,
       "actualPrice": 1499,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 18
     },
     {
@@ -187,6 +223,8 @@
       "discountPrice": 349,
       "actualPrice": 1099,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 19
     },
     {
@@ -197,6 +235,8 @@
       "discountPrice": 349,
       "actualPrice": 1099,
       "color": "blue",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 20
     }
   ],
@@ -209,6 +249,8 @@
       "discountPrice": 949,
       "actualPrice": 1699,
       "color": "white",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 21
     },
     {
@@ -219,6 +261,8 @@
       "discountPrice": 399,
       "actualPrice": 1649,
       "color": "blue",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 22
     },
     {
@@ -229,6 +273,8 @@
       "discountPrice": 399,
       "actualPrice": 1599,
       "color": "brown",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 23
     },
     {
@@ -238,6 +284,8 @@
       "discountPrice": 699,
       "actualPrice": 1599,
       "color": "pink",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 24
     },
     {
@@ -248,6 +296,8 @@
       "discountPrice": 531,
       "actualPrice": 1599,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 25
     },
     {
@@ -258,6 +308,8 @@
       "discountPrice": 849,
       "actualPrice": 1699,
       "color": "blue",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 26
     },
     {
@@ -268,6 +320,8 @@
       "discountPrice": 899,
       "actualPrice": 1999,
       "color": "grey",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 27
     },
     {
@@ -278,6 +332,8 @@
       "discountPrice": 1199,
       "actualPrice": 1799,
       "color": "cream",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 28
     },
     {
@@ -288,6 +344,8 @@
       "discountPrice": 899,
       "actualPrice": 2899,
       "color": "blue",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 29
     },
     {
@@ -298,6 +356,8 @@
       "discountPrice": 999,
       "actualPrice": 1899,
       "color": "blue",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 30
     },
     {
@@ -308,6 +368,8 @@
       "discountPrice": 999,
       "actualPrice": 1699,
       "color": "brown",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 31
     },
     {
@@ -318,6 +380,8 @@
       "discountPrice": 799,
       "actualPrice": 1999,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 32
     },
     {
@@ -328,6 +392,8 @@
       "discountPrice": 1199,
       "actualPrice": 1699,
       "color": "brown",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 33
     },
     {
@@ -338,6 +404,8 @@
       "discountPrice": 799,
       "actualPrice": 1599,
       "color": "grey",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 34
     },
     {
@@ -348,6 +416,8 @@
       "discountPrice": 999,
       "actualPrice": 1699,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 35
     },
     {
@@ -358,6 +428,8 @@
       "discountPrice": 999,
       "actualPrice": 1399,
       "color": "white",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 36
     },
     {
@@ -368,6 +440,8 @@
       "discountPrice": 1099,
       "actualPrice": 2999,
       "color": "grey",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 37
     },
     {
@@ -378,6 +452,8 @@
       "discountPrice": 1399,
       "actualPrice": 3198,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 38
     },
     {
@@ -388,6 +464,8 @@
       "discountPrice": 839,
       "actualPrice": 1399,
       "color": "red",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 39
     },
     {
@@ -398,6 +476,8 @@
       "discountPrice": 799,
       "actualPrice": 1599,
       "color": "white",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 40
     }
   ],
@@ -410,6 +490,8 @@
       "discountPrice": 1399,
       "actualPrice": 2899,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 41
     },
     {
@@ -420,6 +502,8 @@
       "discountPrice": 1124,
       "actualPrice": 2499,
       "color": "blue",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 42
     },
     {
@@ -430,6 +514,8 @@
       "discountPrice": 1399,
       "actualPrice": 2899,
       "color": "white",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 43
     },
     {
@@ -440,6 +526,8 @@
       "discountPrice": 1300,
       "actualPrice": 2599,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 44
     },
     {
@@ -450,6 +538,8 @@
       "discountPrice": 1429,
       "actualPrice": 2599,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 45
     },
     {
@@ -460,6 +550,8 @@
       "discountPrice": 1199,
       "actualPrice": 2899,
       "color": "brown",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 46
     },
     {
@@ -470,6 +562,8 @@
       "discountPrice": 1199,
       "actualPrice": 2899,
       "color": "brown",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 47
     },
     {
@@ -480,6 +574,8 @@
       "discountPrice": 1429,
       "actualPrice": 2599,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 48
     },
     {
@@ -490,6 +586,8 @@
       "discountPrice": 1199,
       "actualPrice": 2899,
       "color": "blue",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 49
     },
     {
@@ -500,6 +598,8 @@
       "discountPrice": 1499,
       "actualPrice": 1999,
       "color": "blue",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 50
     },
     {
@@ -510,6 +610,8 @@
       "discountPrice": 1349,
       "actualPrice": 1799,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 51
     },
     {
@@ -520,6 +622,8 @@
       "discountPrice": 999,
       "actualPrice": 2499,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 52
     },
     {
@@ -530,6 +634,8 @@
       "discountPrice": 1699,
       "actualPrice": 3199,
       "color": "white",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 53
     },
     {
@@ -540,6 +646,8 @@
       "discountPrice": 1124,
       "actualPrice": 2499,
       "color": "blue",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 54
     },
     {
@@ -550,6 +658,8 @@
       "discountPrice": 1124,
       "actualPrice": 2499,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 9999
     },
     {
@@ -560,6 +670,8 @@
       "discountPrice": 1124,
       "actualPrice": 2499,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 55
     },
     {
@@ -569,6 +681,8 @@
       "title": "Men's Blue Washed Plus Size Jeans",
       "discountPrice": 1124,
       "actualPrice": 2499,
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 56
     },
     {
@@ -579,6 +693,8 @@
       "discountPrice": 898,
       "actualPrice": 2099,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 57
     },
     {
@@ -589,6 +705,8 @@
       "discountPrice": 1099,
       "actualPrice": 2499,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 58
     },
     {
@@ -599,6 +717,8 @@
       "discountPrice": 1385,
       "actualPrice": 1899,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 59
     }
   ],
@@ -611,6 +731,8 @@
       "discountPrice": 849,
       "actualPrice": 2999,
       "color": "blue",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 60
     },
     {
@@ -621,6 +743,8 @@
       "discountPrice": 699,
       "actualPrice": 1799,
       "color": "black",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 61
     },
     {
@@ -631,6 +755,8 @@
       "discountPrice": 999,
       "actualPrice": 2999,
       "color": "black",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 62
     },
     {
@@ -641,6 +767,8 @@
       "discountPrice": 939,
       "actualPrice": 2399,
       "color": "cream",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 63
     },
     {
@@ -651,6 +779,8 @@
       "discountPrice": 1049,
       "actualPrice": 2499,
       "color": "black",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 64
     },
     {
@@ -661,6 +791,8 @@
       "discountPrice": 485,
       "actualPrice": 1399,
       "color": "blue",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 65
     },
     {
@@ -671,6 +803,8 @@
       "discountPrice": 484,
       "actualPrice": 1649,
       "color": "blue",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 66
     },
     {
@@ -681,6 +815,8 @@
       "discountPrice": 799,
       "actualPrice": 2399,
       "color": "black",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 67
     },
     {
@@ -691,6 +827,8 @@
       "discountPrice": 1299,
       "actualPrice": 1899,
       "color": "white",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 68
     },
     {
@@ -701,6 +839,8 @@
       "discountPrice": 726,
       "actualPrice": 1799,
       "color": "black",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 69
     },
     {
@@ -711,6 +851,8 @@
       "discountPrice": 845,
       "actualPrice": 1899,
       "color": "red",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 70
     },
     {
@@ -721,6 +863,8 @@
       "discountPrice": 1299,
       "actualPrice": 2699,
       "color": "black",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 71
     },
     {
@@ -731,6 +875,8 @@
       "discountPrice": 573,
       "actualPrice": 2099,
       "color": "black",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 72
     },
     {
@@ -741,6 +887,8 @@
       "discountPrice": 1299,
       "actualPrice": 2499,
       "color": "pink",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 73
     },
     {
@@ -751,6 +899,8 @@
       "discountPrice": 1049,
       "actualPrice": 2299,
       "color": "grey",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 74
     },
     {
@@ -761,6 +911,8 @@
       "discountPrice": 1299,
       "actualPrice": 2399,
       "color": "grey",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 75
     },
     {
@@ -771,6 +923,8 @@
       "discountPrice": 1049,
       "actualPrice": 2499,
       "color": "red",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 76
     },
     {
@@ -781,6 +935,8 @@
       "discountPrice": 1399,
       "actualPrice": 2999,
       "color": "yellow",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 77
     },
     {
@@ -791,6 +947,8 @@
       "discountPrice": 736,
       "actualPrice": 2499,
       "color": "cream",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 78
     },
     {
@@ -801,10 +959,12 @@
       "discountPrice": 1221,
       "actualPrice": 2099,
       "color": "cream",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 79
     }
   ],
-  "allProduct": [
+  "all_products": [
     {
       "image": "https://images.bewakoof.com/t640/men-s-black-uchiha-s-nightmare-oversized-full-sleeve-t-shirt-564894-1671802302-1.jpg",
       "rating": 4.4,
@@ -813,6 +973,8 @@
       "discountPrice": 749,
       "actualPrice": 1499,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 1
     },
     {
@@ -823,6 +985,8 @@
       "discountPrice": 599,
       "actualPrice": 1499,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 2
     },
     {
@@ -833,6 +997,8 @@
       "discountPrice": 499,
       "actualPrice": 1499,
       "color": "blue",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 3
     },
     {
@@ -843,6 +1009,8 @@
       "discountPrice": 549,
       "actualPrice": 1499,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 4
     },
     {
@@ -852,6 +1020,8 @@
       "discountPrice": 499,
       "actualPrice": 1499,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 5
     },
     {
@@ -862,6 +1032,8 @@
       "discountPrice": 549,
       "actualPrice": "1099",
       "color": "black",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 6
     },
     {
@@ -872,6 +1044,8 @@
       "discountPrice": 699,
       "actualPrice": 1499,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 7
     },
     {
@@ -882,6 +1056,8 @@
       "discountPrice": 449,
       "actualPrice": "999",
       "color": "black",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 8
     },
     {
@@ -892,6 +1068,8 @@
       "discountPrice": 499,
       "actualPrice": 1499,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 9
     },
     {
@@ -902,6 +1080,8 @@
       "discountPrice": 549,
       "actualPrice": 1099,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 10
     },
     {
@@ -912,6 +1092,8 @@
       "discountPrice": 399,
       "actualPrice": 1199,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 11
     },
     {
@@ -922,6 +1104,8 @@
       "discountPrice": 499,
       "actualPrice": 999,
       "color": "white",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 12
     },
     {
@@ -932,6 +1116,8 @@
       "discountPrice": 499,
       "actualPrice": 1199,
       "color": "white",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 13
     },
     {
@@ -942,6 +1128,8 @@
       "discountPrice": 599,
       "actualPrice": 1299,
       "color": "grey",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 14
     },
     {
@@ -952,6 +1140,8 @@
       "discountPrice": 449,
       "actualPrice": 999,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 15
     },
     {
@@ -962,6 +1152,8 @@
       "discountPrice": 499,
       "actualPrice": 999,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 16
     },
     {
@@ -972,6 +1164,8 @@
       "discountPrice": 349,
       "actualPrice": 1099,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 17
     },
     {
@@ -982,6 +1176,8 @@
       "discountPrice": 699,
       "actualPrice": 1499,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 18
     },
     {
@@ -992,6 +1188,8 @@
       "discountPrice": 349,
       "actualPrice": 1099,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 19
     },
     {
@@ -1002,6 +1200,8 @@
       "discountPrice": 349,
       "actualPrice": 1099,
       "color": "blue",
+      "category": "Men's",
+      "sub-category": "T-Shirt",
       "id": 20
     },
     {
@@ -1012,6 +1212,8 @@
       "discountPrice": 949,
       "actualPrice": 1699,
       "color": "white",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 21
     },
     {
@@ -1022,6 +1224,8 @@
       "discountPrice": 399,
       "actualPrice": 1649,
       "color": "blue",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 22
     },
     {
@@ -1032,6 +1236,8 @@
       "discountPrice": 399,
       "actualPrice": 1599,
       "color": "brown",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 23
     },
     {
@@ -1041,6 +1247,8 @@
       "discountPrice": 699,
       "actualPrice": 1599,
       "color": "pink",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 24
     },
     {
@@ -1051,6 +1259,8 @@
       "discountPrice": 531,
       "actualPrice": 1599,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 25
     },
     {
@@ -1061,6 +1271,8 @@
       "discountPrice": 849,
       "actualPrice": 1699,
       "color": "blue",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 26
     },
     {
@@ -1071,6 +1283,8 @@
       "discountPrice": 899,
       "actualPrice": 1999,
       "color": "grey",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 27
     },
     {
@@ -1081,6 +1295,8 @@
       "discountPrice": 1199,
       "actualPrice": 1799,
       "color": "cream",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 28
     },
     {
@@ -1091,6 +1307,8 @@
       "discountPrice": 899,
       "actualPrice": 2899,
       "color": "blue",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 29
     },
     {
@@ -1101,6 +1319,8 @@
       "discountPrice": 999,
       "actualPrice": 1899,
       "color": "blue",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 30
     },
     {
@@ -1111,6 +1331,8 @@
       "discountPrice": 999,
       "actualPrice": 1699,
       "color": "brown",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 31
     },
     {
@@ -1121,6 +1343,8 @@
       "discountPrice": 799,
       "actualPrice": 1999,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 32
     },
     {
@@ -1131,6 +1355,8 @@
       "discountPrice": 1199,
       "actualPrice": 1699,
       "color": "brown",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 33
     },
     {
@@ -1141,6 +1367,8 @@
       "discountPrice": 799,
       "actualPrice": 1599,
       "color": "grey",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 34
     },
     {
@@ -1151,6 +1379,8 @@
       "discountPrice": 999,
       "actualPrice": 1699,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 35
     },
     {
@@ -1161,6 +1391,8 @@
       "discountPrice": 999,
       "actualPrice": 1399,
       "color": "white",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 36
     },
     {
@@ -1171,6 +1403,8 @@
       "discountPrice": 1099,
       "actualPrice": 2999,
       "color": "grey",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 37
     },
     {
@@ -1181,6 +1415,8 @@
       "discountPrice": 1399,
       "actualPrice": 3198,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 38
     },
     {
@@ -1191,6 +1427,8 @@
       "discountPrice": 839,
       "actualPrice": 1399,
       "color": "red",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 39
     },
     {
@@ -1201,6 +1439,8 @@
       "discountPrice": 799,
       "actualPrice": 1599,
       "color": "white",
+      "category": "Men's",
+      "sub-category": "Shirt",
       "id": 40
     },
     {
@@ -1211,6 +1451,8 @@
       "discountPrice": 1399,
       "actualPrice": 2899,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 41
     },
     {
@@ -1221,6 +1463,8 @@
       "discountPrice": 1124,
       "actualPrice": 2499,
       "color": "blue",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 42
     },
     {
@@ -1231,6 +1475,8 @@
       "discountPrice": 1399,
       "actualPrice": 2899,
       "color": "white",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 43
     },
     {
@@ -1241,6 +1487,8 @@
       "discountPrice": 1300,
       "actualPrice": 2599,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 44
     },
     {
@@ -1251,6 +1499,8 @@
       "discountPrice": 1429,
       "actualPrice": 2599,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 45
     },
     {
@@ -1261,6 +1511,8 @@
       "discountPrice": 1199,
       "actualPrice": 2899,
       "color": "brown",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 46
     },
     {
@@ -1271,6 +1523,8 @@
       "discountPrice": 1199,
       "actualPrice": 2899,
       "color": "brown",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 47
     },
     {
@@ -1281,6 +1535,8 @@
       "discountPrice": 1429,
       "actualPrice": 2599,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 48
     },
     {
@@ -1291,6 +1547,8 @@
       "discountPrice": 1199,
       "actualPrice": 2899,
       "color": "blue",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 49
     },
     {
@@ -1301,6 +1559,8 @@
       "discountPrice": 1499,
       "actualPrice": 1999,
       "color": "blue",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 50
     },
     {
@@ -1311,6 +1571,8 @@
       "discountPrice": 1349,
       "actualPrice": 1799,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 51
     },
     {
@@ -1321,6 +1583,8 @@
       "discountPrice": 999,
       "actualPrice": 2499,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 52
     },
     {
@@ -1331,6 +1595,8 @@
       "discountPrice": 1699,
       "actualPrice": 3199,
       "color": "white",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 53
     },
     {
@@ -1341,6 +1607,8 @@
       "discountPrice": 1124,
       "actualPrice": 2499,
       "color": "blue",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 54
     },
     {
@@ -1351,6 +1619,8 @@
       "discountPrice": 1124,
       "actualPrice": 2499,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 9999
     },
     {
@@ -1361,6 +1631,8 @@
       "discountPrice": 1124,
       "actualPrice": 2499,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 55
     },
     {
@@ -1370,6 +1642,8 @@
       "title": "Men's Blue Washed Plus Size Jeans",
       "discountPrice": 1124,
       "actualPrice": 2499,
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 56
     },
     {
@@ -1380,6 +1654,8 @@
       "discountPrice": 898,
       "actualPrice": 2099,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 57
     },
     {
@@ -1390,6 +1666,8 @@
       "discountPrice": 1099,
       "actualPrice": 2499,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 58
     },
     {
@@ -1400,6 +1678,8 @@
       "discountPrice": 1385,
       "actualPrice": 1899,
       "color": "black",
+      "category": "Men's",
+      "sub-category": "Jeans",
       "id": 59
     },
     {
@@ -1410,6 +1690,8 @@
       "discountPrice": 849,
       "actualPrice": 2999,
       "color": "blue",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 60
     },
     {
@@ -1420,6 +1702,8 @@
       "discountPrice": 699,
       "actualPrice": 1799,
       "color": "black",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 61
     },
     {
@@ -1430,6 +1714,8 @@
       "discountPrice": 999,
       "actualPrice": 2999,
       "color": "black",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 62
     },
     {
@@ -1440,6 +1726,8 @@
       "discountPrice": 939,
       "actualPrice": 2399,
       "color": "cream",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 63
     },
     {
@@ -1450,6 +1738,8 @@
       "discountPrice": 1049,
       "actualPrice": 2499,
       "color": "black",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 64
     },
     {
@@ -1460,6 +1750,8 @@
       "discountPrice": 485,
       "actualPrice": 1399,
       "color": "blue",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 65
     },
     {
@@ -1470,6 +1762,8 @@
       "discountPrice": 484,
       "actualPrice": 1649,
       "color": "blue",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 66
     },
     {
@@ -1480,6 +1774,8 @@
       "discountPrice": 799,
       "actualPrice": 2399,
       "color": "black",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 67
     },
     {
@@ -1490,6 +1786,8 @@
       "discountPrice": 1299,
       "actualPrice": 1899,
       "color": "white",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 68
     },
     {
@@ -1500,6 +1798,8 @@
       "discountPrice": 726,
       "actualPrice": 1799,
       "color": "black",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 69
     },
     {
@@ -1510,6 +1810,8 @@
       "discountPrice": 845,
       "actualPrice": 1899,
       "color": "red",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 70
     },
     {
@@ -1520,6 +1822,8 @@
       "discountPrice": 1299,
       "actualPrice": 2699,
       "color": "black",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 71
     },
     {
@@ -1530,6 +1834,8 @@
       "discountPrice": 573,
       "actualPrice": 2099,
       "color": "black",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 72
     },
     {
@@ -1540,6 +1846,8 @@
       "discountPrice": 1299,
       "actualPrice": 2499,
       "color": "pink",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 73
     },
     {
@@ -1550,6 +1858,8 @@
       "discountPrice": 1049,
       "actualPrice": 2299,
       "color": "grey",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 74
     },
     {
@@ -1560,6 +1870,8 @@
       "discountPrice": 1299,
       "actualPrice": 2399,
       "color": "grey",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 75
     },
     {
@@ -1570,6 +1882,8 @@
       "discountPrice": 1049,
       "actualPrice": 2499,
       "color": "red",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 76
     },
     {
@@ -1580,6 +1894,8 @@
       "discountPrice": 1399,
       "actualPrice": 2999,
       "color": "yellow",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 77
     },
     {
@@ -1590,6 +1906,8 @@
       "discountPrice": 736,
       "actualPrice": 2499,
       "color": "cream",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 78
     },
     {
@@ -1600,8 +1918,9 @@
       "discountPrice": 1221,
       "actualPrice": 2099,
       "color": "cream",
+      "category": "Men's",
+      "sub-catgory": "Sweatshirt",
       "id": 79
     }
-  ],
-  "cart": []
+  ]
 }

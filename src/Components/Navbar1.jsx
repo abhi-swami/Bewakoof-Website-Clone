@@ -29,11 +29,12 @@ const NavLink = ({ children }) => (
 );
 
 export default function Navbar1() {
+  // console.log(process.env.REACT_APP_BASE_URL,process.env.REACT_APP_PORT_NUMBER)
 
   return (
     <Box w={'100%'}  b={"100px"} pos={"fixed"}  zIndex={3}  mb={100} border={"0px solid black"}>
       <Box  bg={useColorModeValue("gray.100", "gray.900")} pb={0} >
-        <Flex alignItems={"center"} justifyContent={"space-around"}>
+        <Flex alignItems={"center"} justifyContent={"space-around"} border={"0px solid red"}>
 
           <HStack spacing={8} alignItems={"center"}>
             <HStack
@@ -45,7 +46,7 @@ export default function Navbar1() {
                  
               {Links.map((link) =>
                 link==="DownLoad App"?
-                  (<NavLink key={link}><i class="fa-solid fa-download"></i>{"   "}{  link}</NavLink>):(<NavLink key={link}> {link}</NavLink>)
+                  (<NavLink key={link}>{"   "}{  link}</NavLink>):(<NavLink key={link}> {link}</NavLink>)
 
                   )}
             </HStack>
